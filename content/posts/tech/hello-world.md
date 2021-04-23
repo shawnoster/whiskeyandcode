@@ -1,11 +1,7 @@
 ---
 title: "Hello World"
 date: "2021-04-22T20:28:40-07:00"
-author: ""
-authorTwitter: ""
-cover: ""
 tags: ["hello"]
-description: "Something"
 showFullContent: false
 draft: false
 ---

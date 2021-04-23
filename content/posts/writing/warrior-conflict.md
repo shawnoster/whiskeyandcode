@@ -1,0 +1,5 @@
+Do you know they consider a relationship filled with conflict to be a form of training? As a warrior-sleeper-cell-for-a-prohicied-god day they had preparing for their eventual activation instead of religion. 
+
+There were very few atheists in warrior-cults, mostly because the ability to even think that way had been breed out and because, in a classic casualty gives no fucks about correlation setup, when your entire existence is shaped by perfecting yourself to become the ultimate weapon for a god you tended to have an upper hand when moving against a race raised on sitting in cramped room once a week eating basically prison rations and where the most military training most people had was a few wasted years on the couch playing CoD.
+
+So there was an odd form of “proof” that their cult of training was legit and possibly spiritually backed, from where they sat. They were 
