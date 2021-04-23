@@ -426,7 +426,7 @@ uglyURLs = false
     ######################################
     # List Page
 
-    listWidth = 36
+    listWidth = 42
     # Note: you can leave it empty("") to
     #       fallback to the default value: 42
     #       Unit: em
@@ -756,7 +756,7 @@ uglyURLs = false
     #            supported
 
     # The content width of the post
-    postWidth = 36
+    postWidth = 42
     # Note: you can leave it empty("") to
     #       fallback to the default value: 42
     #       Unit: em
@@ -1040,7 +1040,7 @@ uglyURLs = false
     ######################################
     ## Drop Cap
 
-    enableDropCap = true
+    enableDropCap = false
     # Note: *global settings*
     #       `dropCap` in post’s Front Matter
     #       has a higher priority than here
