@@ -72,3 +72,8 @@ Fleek only accepts Docker images from Docker Hub so sign-up if you don't already
 1. Go to your host in Fleek
 1. Find Docker image
 1. Replace w/ `<username>/hugo-extended-for-fleek:latest`
+1. Trigger a new deploy 
+
+## Done
+
+And that's that.
