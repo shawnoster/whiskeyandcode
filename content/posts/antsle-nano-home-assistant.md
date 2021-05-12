@@ -112,9 +112,9 @@ Nothing too magic here:
 
 ## Software - InfluxDb
 
-By default HA logs all it's data to a Postgres database. Given the way writes can thrash a SD card it's best to redirect all the data HA generates to something else. There can be more than one "some place" as well. A common setup is to log to MariaDb for persistance and InfluxDb for time-series based logging and activity.
+By default HA logs all it's data to a SQLite database. Given the way writes can thrash a SD card it's best to redirect all the data HA generates to something else. There can be more than one "some place" as well. A common setup is to log to MariaDb for persistance and InfluxDb for time-series based logging and activity.
 
-There are **a lot** of great articles out there on InfluxDb and I won't dilute the knowledge pool with my hacked together summary. One thing I did have trouble finding was setting up InfluxDb 2.0 for use with Home Assitant, all while running it on my Nano.
+There are **a lot** of great articles out there on InfluxDb and I won't dilute the knowledge pool with my hacked together summary. One thing I did have trouble finding was setting up InfluxDb 2.0 for use with Home Assistant, all while running it on my Nano.
 
 Docker again to the rescue:
 
