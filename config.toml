@@ -1,7 +1,7 @@
 ##########################################
 # Site Settings
 
-baseURL = "https://example.com/"
+baseURL = "https://whiskeyandcode.com/"
 title = "Whiskey and Code"
 languageCode = "en"
 hasCJKLanguage = false
