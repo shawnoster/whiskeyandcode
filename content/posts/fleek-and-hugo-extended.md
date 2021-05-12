@@ -1,6 +1,11 @@
 ---
 categories:
-- blog
+- blogging
+tags:
+- home-automation
+- IPFS
+- Hugo
+- Fleek.co
 draft: false
 title: 'Fleek.co + Hugo Extended'
 date: 2021-04-25
@@ -30,14 +35,14 @@ Fleek only accepts Docker images from Docker Hub so sign-up if you don't already
 
 1. Created a new folder to stash the Dockerfile
 
-   ```
+   ```powershell
    mkdir c:\repos\docker\hugo-extended
    cd c:\repos\docker\hugo-extended
    ```
 
 1. I did a hack-and-slash and hard-coded the entire Hugo version. I'm not even using HUGO_VERSION, that's how late at night it was.
 
-   ```
+   ```docker
    ARG NODE_VERSION
 
    FROM node:latest
@@ -55,7 +60,7 @@ Fleek only accepts Docker images from Docker Hub so sign-up if you don't already
 
 1. Build the image
 
-   ```
+   ```bash
    docker build -t <username>/hugo-extended-for-fleek .
    ```
 
@@ -72,7 +77,7 @@ Fleek only accepts Docker images from Docker Hub so sign-up if you don't already
 1. Go to your host in Fleek
 1. Find Docker image
 1. Replace w/ `<username>/hugo-extended-for-fleek:latest`
-1. Trigger a new deploy 
+1. Trigger a new deploy
 
 ## Done
 
