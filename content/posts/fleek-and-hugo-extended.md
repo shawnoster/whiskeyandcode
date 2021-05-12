@@ -9,6 +9,7 @@ tags:
 draft: false
 title: 'Fleek.co + Hugo Extended'
 date: 2021-04-25
+description: Getting Hugo extended working with Fleek.co hosting
 ---
 
 # Fleek.co Hosting and Hugo Extended
