@@ -895,7 +895,7 @@ uglyURLs = false
 
     enableImageHost = false
 
-    imageHostURL = "https://example.com/"
+    imageHostURL = "https://whiskeyandcode.com/"
 
     # Replace the image link in the HTML
     # head meta also?
@@ -917,7 +917,7 @@ uglyURLs = false
 
     enableVideoHost = false
 
-    videoHostURL = "https://example.com/"
+    videoHostURL = "https://whiskeyandcode.com/"
 
 
     ######################################
