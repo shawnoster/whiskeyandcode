@@ -49,7 +49,7 @@ Aside from spinning up quick Linux distros it's plenty powerful enough to run my
 
 Since it's a home automation platform it has to be running all the time, making a networked RasberryPi the perfect server to run it on top of. I tried installing it various ways, mostly from source inside of a Ubuntu VM, until I stopped making life hard on myself and switched to the official Docker image.
 
-![Home Assistant](../images/db070fac997ec58105692246a8d988c145edcb466c661df0b2dc7ed51cb8fdb4.png)
+![Home Assistant Dashboard](../images/db070fac997ec58105692246a8d988c145edcb466c661df0b2dc7ed51cb8fdb4.png)
 
 ### Installing Home Assistant on an Antsle Nano
 
@@ -146,7 +146,7 @@ influxdb:
     source: ha
 ```
 
-Here's a simple chart of my office tempature as reported via Hue Motion Sensor
+Here's a simple chart of my office temperature as reported via Hue Motion Sensor
 
 ![InfluxDb](../images/918d5b22f6834c2982135cf9f56b870e1632f00933de6f1afc9c39135c74df5d.png)
 
@@ -165,10 +165,7 @@ docker run -d -p 3100:3000 \
 There's a lot of other great stuff you can do with Home Assistant and I barely scratch the surface with mine but here's what I have configured.
 
 * At 7:45am HA turns on the XBox in my office, starts playing a looping YouTube channel, and turns on my office lights at 70%
-* Scanning different QR codes will play various artists and playlists via my Sonos system
+* Scanning different QR codes will play various artists and playlists via Spotify on my Sonos system
 * All office temperature data is logged to InfluxDb and Grafana
 * Integrated [OwnTracks](https://owntracks.org/) to serve as a "Find a Friend" location service, except the data goes directly to my private cloud
-
-## Parting Thoughts
-
-* HA is
+* When my partner's phone MAC address is detected on our home network, a bulb in my office blinks twice
