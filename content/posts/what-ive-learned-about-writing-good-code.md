@@ -6,7 +6,7 @@ categories:
 - tech
 tags:
 - coding
-- best practices
+- 'best practices'
 ---
 
 There are lessons you learn in school and there are the things you learn along the way. I've been developing software for 25 years, since I was 8, starting with a book called "[Your First BASIC Program](https://www.goodreads.com/book/show/4488063-your-first-basic-program)" that my dad bought me because we had a PC while all my friends were playing StarBlazers on their Apple IIs. He said if I wanted to play games then I could write one myself.  At the time I was a bit disappointed (OK, crushed) but now... well, Dad, thank you.
