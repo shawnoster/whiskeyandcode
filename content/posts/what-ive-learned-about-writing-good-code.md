@@ -1,6 +1,6 @@
 ---
 draft: false
-title: 'What I've Learned About Writing Good Code'
+title: 'What I Have Learned About Writing Good Code'
 date: 2007-05-03
 ---
 
