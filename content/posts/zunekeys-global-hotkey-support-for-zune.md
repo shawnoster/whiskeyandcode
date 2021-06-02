@@ -24,7 +24,17 @@ I'd suggest adding ZuneKeys to your startup menu so it's always available.
 
 ## The Keys
 
-  <table style="width: 398px" border="0" cellspacing="0" cellpadding="2"><tbody>     <tr>       <td valign="top" width="120">Play</td>        <td valign="top" width="276">Ctrl + Alt + Insert</td>     </tr>      <tr>       <td valign="top" width="122">Pause</td>        <td valign="top" width="275">Ctrl + Alt + Home</td>     </tr>      <tr>       <td valign="top" width="123">Stop</td>        <td valign="top" width="274">Ctrl + Alt + End</td>     </tr>      <tr>       <td valign="top" width="124">Previous Track</td>        <td valign="top" width="273">Ctrl + Alt + Page Up</td>     </tr>      <tr>       <td valign="top" width="125">Next Track</td>        <td valign="top" width="273">Ctrl + Alt + Page Down</td>     </tr>      <tr>       <td valign="top" width="125">Volume Up</td>        <td valign="top" width="273">Ctrl + Alt + Up</td>     </tr>      <tr>       <td valign="top" width="125">Volume Down</td>        <td valign="top" width="273">Ctrl + Alt + Down</td>     </tr>      <tr>       <td valign="top" width="125">Fast Forward</td>        <td valign="top" width="273">Ctrl + Alt + Right</td>     </tr>      <tr>       <td valign="top" width="125">Rewind</td>        <td valign="top" width="273">Ctrl + Alt + Left</td>     </tr>   </tbody></table>  
+Action          | Shortcut
+----------------|-----------------------
+Play            | Ctrl + Alt + Insert
+Pause           | Ctrl + Alt + Home
+Stop            | Ctrl + Alt + End
+Previous Track  | Ctrl + Alt + Page Up
+Next Track      | Ctrl + Alt + Page Down
+Volume Up       | Ctrl + Alt + Up
+Volume Down     | Ctrl + Alt + Down
+Fast Forward    | Ctrl + Alt + Right
+Rewind          | Ctrl + Alt + Left
 
 ## How it Works
 
