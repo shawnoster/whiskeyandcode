@@ -11,14 +11,14 @@ date: 2007-07-15
 description: Global hotkey support for the Zune software, similar to Winamp
 ---
 
-Before the Zune software I used Winamp and one of the things I really liked was it's Global Hotkey support, the ability to control the player using just hotkeys. Ever since using the Zune I've found myself hitting Ctrl + Alt + Home to pause the player about a 100 times so instead of whining about it in yet another blog post I thought I'd actually do something. It was a slow afternoon at work on a Friday so I whipped up this, [ZuneKeys](http://shawnoster.blog.s3.amazonaws.com/downloads/ZuneKeys.zip), global hotkey support for the Zune software.
+Before Zune I used [Winamp](https://winamp.com/) and one of the things I really liked was it's global hotkey support, the ability to control the player using just hotkeys. Ever since using the Zune I've found myself hitting `Ctrl + Alt + Home` to pause the player about a 100 times so instead of whining about it in yet another blog post I thought I'd actually do something. It was a slow afternoon on a Friday so I whipped up this, [ZuneKeys](http://shawnoster.blog.s3.amazonaws.com/downloads/ZuneKeys.zip), global hotkey support for the Zune software.
 
 ## Install
 
-1.  [Download ZuneKeys](http://shawnoster.blog.s3.amazonaws.com/downloads/ZuneKeys.zip)
-2.  Unzip and copy somewhere, personally I use c:program fileszunekeys
-3.  Run ZuneKeys.exe...
-4.  ...and Bob's yer uncle! Now you have global hotkey support for your Zune software.  
+1. [Download ZuneKeys](http://shawnoster.blog.s3.amazonaws.com/downloads/ZuneKeys.zip)
+2. Unzip and copy somewhere, personally I use `c:\program files\zunekeys`
+3. Run ZuneKeys.exe...
+4. ...and Bob's yer uncle! Now you have global hotkey support for your Zune software.  
 
 I'd suggest adding ZuneKeys to your startup menu so it's always available.
 
@@ -28,7 +28,7 @@ I'd suggest adding ZuneKeys to your startup menu so it's always available.
 
 ## How it Works
 
-I'm basically sending the same commands that your fancy media keyboards send, except I don't use media keyboards as they take up entirely too much space on my already cramped desk. Nothing too magically here. I'm pretty sure the Winamp one actually sends Winamp messages that it knows how to respond to but since the Zune software doesn't *have* anything like that I'm sorta faking it.
+I'm basically sending the same commands that your fancy media keyboards sends, except I don't use media keyboards as they take up entirely too much space on my already cramped desk. Nothing too magically here. I'm pretty sure the Winamp one actually sends Winamp messages that it knows how to respond to but since the Zune software doesn't have anything like that I'm faking it.
 
 There is no customization of hotkeys and it could probably do a lot more but I wanted to keep it as tiny as possible since I already seem to have a 100 other things running in the background trying to compete for my system's resources. If someone besides me actually uses this puppy I'm sure I could accommodate customized keys or other small enhancements.
 
