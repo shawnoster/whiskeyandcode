@@ -3,7 +3,7 @@ title = "TortoiseSVN global ignore pattern for Visual Studio and Delphi"
 date = "2007-01-05"
 categories = ["Code"]
 tags = ["VisualStudio", "Delphi"]
-draft: false
+draft = false
 +++
 
 Seems I'm reinstalling all the time and I commonly forget my global ignore pattern for svn. Here it is for future me:

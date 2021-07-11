@@ -1,17 +1,12 @@
----
-title: 'Antsle Nano + Home Assistant'
-date: 2021-05-11
-draft: false
-categories:
-- Code
-tags:
-- Antsle
-- Home Assistant
-- InfluxDB
-- Grafana
----
++++
+title = "Running Home Assistant on an Antsle Nano"
+date = "2021-05-11"
+categories = ["Code"]
+tags = ["Antsle", "Home Assistant", "InfluxDB", "Grafana"]
+draft = false
++++
 
-# Antsle Nano + Home Assistant
+# Running Home Assistant on an Antsle Nano
 
 A brief overview of my [Home Assistant](https://www.home-assistant.io/) setup.
 
