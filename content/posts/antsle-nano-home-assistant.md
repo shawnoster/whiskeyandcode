@@ -1,14 +1,14 @@
 ---
-categories:
-- home-automation
-tags:
-- antsle
-- home-assistant
-- influxdb
-- grafana
-draft: false
 title: 'Antsle Nano + Home Assistant'
 date: 2021-05-11
+draft: false
+categories:
+- Code
+tags:
+- Antsle
+- Home Assistant
+- InfluxDB
+- Grafana
 ---
 
 # Antsle Nano + Home Assistant

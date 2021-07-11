@@ -1,13 +1,10 @@
----
-draft: false
-title: 'ZuneKeys Updated for Zune 2.5'
-date: 2008-05-08
-categories:
-- tech
-tags:
-- Zune
-- Delphi
----
++++
+title = "ZuneKeys Updated for Zune 2.5"
+date = "2008-05-08"
+categories = ["Code"]
+tags = ["Delphi", "Zune"]
+draft = false
++++
 
 Another new Zune client update, another [ZuneKeys](http://shawnoster.com/2007/07/zunekeys-global-hotkey-support-for-zune/). For those that don't know ZuneKeys gives you a few hotkeys to control playing and pausing the Zune software from any application (hence why they're called global hotkeys). I stole the idea from WinAmp because I'm always needing to pause or skip tracks and it's much easier to do it with a quick Ctrl + Alt + Home rather than opening up the software and finding the pause button.
 

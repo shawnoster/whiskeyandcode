@@ -1,13 +1,11 @@
----
++++
+title = "TortoiseSVN global ignore pattern for Visual Studio and Delphi"
+date = "2007-01-05"
+categories = ["Code"]
+tags = ["Visual Studio", "Delphi"]
 draft: false
-title: 'TortoiseSVN global ignore pattern for Visual Studio and Delphi'
-date: 2007-01-05
-categories:
-- tech
-tags:
-- Visual Studio
-- Delphi
----
++++
+
 Seems I'm reinstalling all the time and I commonly forget my global ignore pattern for svn. Here it is for future me:
 
 ```

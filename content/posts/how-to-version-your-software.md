@@ -1,7 +1,7 @@
 +++
-draft = false
 title = "How to Version your Software"
 date = "2007-04-22T07:50:00Z"
+draft = false
 +++
 
 Most developers live and breath version numbers, yet there are a few that either don't or don't really have a good rule of thumb on what their versions should mean. There are also quite a few people that have to deal with versions that aren't developers, such as tech support, marketing and new team members. For those people it's always a good idea for everyone to be on the same page.
@@ -16,7 +16,7 @@ So you have version 1.5.4.675, what does that mean? First, the different parts a
 - File formats should be compatible, all 1.x versions should open, save and edit 1.x versions.  
 - For commercial products all updates in the 1.x line should be free  
 - Only release a new major version if;
-    - the flow of the application has been noticeably changed,  
+  - the flow of the application has been noticeably changed,  
     - there are a significant number of new high-visibility, high-usability features,  
     - the user interface has drastically changed.
     - New major versions should always be able to import or open older versions.

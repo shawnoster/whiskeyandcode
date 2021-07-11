@@ -1,16 +1,11 @@
----
-categories:
-- blogging
-tags:
-- home-automation
-- IPFS
-- Hugo
-- Fleek.co
-draft: false
-title: 'Fleek.co + Hugo Extended'
-date: 2021-04-25
-description: Getting Hugo extended working with Fleek.co hosting
----
++++
+title = "Fleek.co and Hugo Extended"
+description = "Getting Hugo extended working with Fleek.co hosting"
+date = "2021-04-25"
+categories = ["Code"]
+tags = ["Home Automation", "IPFS", "Hugo", "Fleek.co"]
+draft = false
++++
 
 # Fleek.co Hosting and Hugo Extended
 

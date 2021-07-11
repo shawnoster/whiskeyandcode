@@ -1,12 +1,10 @@
----
-draft: false
-title: 'Digital Dark Ages'
-date: 2006-11-22
-categories:
-- blogging
-tags:
-- DRM
----
++++
+title = "Digital Dark Ages"
+date = "2006-11-22"
+categories = ["Whiskey"]
+tags = ["DRM"]
+draft = false
++++
 
 We are still in the digital dark ages, at least as far as media goes. Let's explore just how ugly it is currently:
 
