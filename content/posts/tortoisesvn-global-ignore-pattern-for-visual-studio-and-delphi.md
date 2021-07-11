@@ -2,7 +2,7 @@
 title = "TortoiseSVN global ignore pattern for Visual Studio and Delphi"
 date = "2007-01-05"
 categories = ["Code"]
-tags = ["Visual Studio", "Delphi"]
+tags = ["VisualStudio", "Delphi"]
 draft: false
 +++
 
