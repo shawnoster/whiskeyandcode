@@ -6,6 +6,8 @@ categories:
 - tech
 tags:
 - C#
+- SubSonic
+- Open Source
 ---
 
 
