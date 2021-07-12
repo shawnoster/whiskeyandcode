@@ -18,7 +18,7 @@ Even though SubSonic supports Rails-style auto-gen of your DAL via build provide
 
 Go to Tools ' Externals Tools... click "Add" and make it look like this:
 
-[![External Tools](/ExternalTools_thumb.png)](/ExternalTools.png)
+[![External Tools](/images/ExternalTools_thumb.png)](/images/ExternalTools.png)
 
 * That command is your path to **sonic.exe**
 * If you're working with the MVC Toolkit (and why aren't you?) then change "App_CodeGenerated" to "ModelsGenerated"
@@ -27,7 +27,7 @@ Go to Tools ' Externals Tools... click "Add" and make it look like this:
 
 SubSonic can also version and script your database, very useful for source control and distributing your application. Same as above but make it look like this:
 
-[![External Tools (2)](/ExternalTools2_thumb.png)](/ExternalTools2.png)
+[![External Tools (2)](/images/ExternalTools2_thumb.png)](/images/ExternalTools2.png)
 
 ## 4. Install SubSonic Schema
 
@@ -43,7 +43,7 @@ I dislike any warnings during a build and one you'll get with SubSonic is it not
 
     (I added it right underneath the `<xs:schema>` opening tag, seems to work. Also, if you're using **Vista** you'll need to edit `DotNetConfig.xsd` in an editor that was started with right-click, Admin, otherwise it'll write a copy of the xsd into the Virtual Store and your changes will never take effect. Trust me, I learned this the hard way.)
 
-4. Close Visual Studio if it's running, re-open, ta-da you now have IntelliSense as well as no more annoying _"Could not find schema information for..."_ messages.
+1. Close Visual Studio if it's running, re-open, ta-da you now have IntelliSense as well as no more annoying _"Could not find schema information for..."_ messages.
 
 ## 5. Install SubSonic code snippets
 
