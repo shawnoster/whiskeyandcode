@@ -1,0 +1,23 @@
++++
+title = "Seattle: The First Weekend"
+date = "2008-08-11T15:14:37Z"
+categories = ["Whiskey"]
+tags = ["Seattle", "Belltown"]
+draft = false
++++
+
+My first weekend living in Seattle is drawing to a close and as the sun very, very slowly sets I figured I'd give a wee status report.
+
+Right now I'm living in an apartment provided so nicely by Microsoft in an area of downtown Seattle called Belltown in a place [The Shelby](http://maps.google.com/maps?f=q&hl=en&geocode=&q=2201+4th+Ave,+Seattle,+WA+98121&sll=37.0625,-95.677068&sspn=42.766543,58.447266&ie=UTF8&ll=47.614828,-122.34302&spn=0.008925,0.014269&z=16&iwloc=addr). It's a fairly modern, clean, [1 bedroom place](http://theshelby.com/melrose.html) with a kitchen and dinning nook that fits two people rather well. Fully furnished though someone should talk to whomever outfitted this place, we need more towel racks, seriously people. Towel racks.
+
+The area is pretty much full of hipster kids, upscale restaurants, hidden gems, halfway houses and the fire station. Lot's of scooters go zipping around the place as well so scooter mania has hit here hard as well. I can walk five blocks into the heart of downtown, six blocks and I'm in the famous Pike's Market, three blocks to a killer Mediterranean restaurant, eight blocks to the Puget Sound waterfront and most importantly one block to my new favorite watering hole, Two Bells. From the front door I can see the Space Needle just a few blocks away.
+
+First, the food. The food here is amazing, we have yet to eat at a bad place in downtown Seattle. First day lunch was at the [Zeitoon Cafe](http://www.zeitooncafe.com/) where I had a killer panini, dinner at a great sushi place that had items I've never seen before plus three Japanese business men were dinning which is always a good sign. Next night was pizza at [Serious Pie](http://www.tomdouglas.com/serious/index.html), a small, quaint upscale pizzeria where everyone sits at shared tables while enjoying entirely unique appetizers and pizzas. A warning though for my purist friends (Jeremy, I'm looking at you) there is no classic New York or Chicago style pizza on the menu so I'm still on a quest for the best New York slice in Seattle. Tonight's dinner was at Two Bells, a bar & grill that captured my heart and stomach. Low-key, no pretension bar & grill with killer hamburgers, Guinness on tap and a great mix of people from tattoo'd lasses to couples in Dockers. It's only a block away from The Shelby and has a high probability of becoming my favorite local watering hole. Kevin, Billy, Ben, Sean, this is where we'd meet for a pint after work. I wish like hell we could.
+
+The weather has been great, only the smallest amount of rain, comfortable temps and sunshine. In fact the first day here I was missing our nice AC unit back in Colorado. Even downtown there are trees everywhere and when walking by Bell & 4th (one block over) you can look right down to the Sound, or turn your head a bit and on a clear day make out the mountains. All in all it's a beautiful city and I can see why so many people love it. I'll report back tomorrow about the traffic though, I'm sure all these people equals one huge traffic problem of evil.
+
+In fact I'm surprised there is no cohesive public transportation. There are a half dozen small networks but nothing like the London Underground or D.C. subway system. A nice gentleman on the plane who bought be my Jack & Ginger attributed this to all the tree huggers who quite literally can't bare to part with a single tree to make way for unified light rail or subway system. It's the classic curse of the West, since it was developed so much later than the East more people could afford personal transport and so the need was never as great. Plus the West wasn't exactly settled by socialites and debutantes so finding a nice communal way for everyone to get around probably wasn't on the top of any of these anti-social explorer's lists.
+
+This is my first time as a true Urbanite, living downtown, walking to the local market (Ralph's), being able to stumble home from the bar (Two Bells), walking to the bus for work (The 545 Express), hitting up the clubs (I hear them at night so I know they're around) and generally enjoying not having to fire up the car or spend money on gas to get to 90% of what I need to. I'm sure once the constant rain and snow hits I won't be whistling such a merry little tune but I'll let the city court me a little while longer.
+
+It still feels surreal, like I'm on some huge extended vacation and that I'm just staying in a suite at some hotel for awhile but I have a feeling after tomorrow that illusion will come crashing down. A few days of work I'm sure will bring me right back down to Earth :)
