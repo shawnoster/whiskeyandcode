@@ -43,7 +43,7 @@ textBox1.InputScope = new InputScope()
 
 ### Via XAML with a TypeConvertor
 
-Remember how in high school they'd always teach you the hard way before showing you the easy version? Guilty as charged. If you already know the exact InputScopeNameValue you want to use, for example &lsquo;Text', then you can take advantage of the built-in TypeConvertor that is already wired up to the property and write this much easier XAML:
+Remember how in high school they'd always teach you the hard way before showing you the easy version? Guilty as charged. If you already know the exact InputScopeNameValue you want to use, for example 'Text', then you can take advantage of the built-in TypeConvertor that is already wired up to the property and write this much easier XAML:
 
 ```xml
 <TextBox InputScope="Text" />
@@ -63,19 +63,19 @@ Now that you know how to set them here are some of the more useful InputScopes:
 
 ### Default
 
-![Default InputScope](http://shawnoster.blog.s3.amazonaws.com/content/Default%20InputScope_thumb.png "Default InputScope")
+![Default InputScope](/images/Default%20InputScope_thumb.png "Default InputScope")
 
 This is the default InputScope when no input scope is specified. Auto-capitalize first letter of sentence. The app can show app specific text suggestions. Layout: Standard QWERTY layout.
 
 ### Number
 
-![Number InputScope](http://shawnoster.blog.s3.amazonaws.com/content/Number%20InputScope_thumb.png "Number InputScope")
+![Number InputScope](/images/Number%20InputScope_thumb.png "Number InputScope")
 
 When all you're looking for is basic number entry. All features like auto-capitalize are turned off. Layout: the first symbol page of the standard QWERTY layout.
 
 ### Text
 
-![Text InputScope](http://shawnoster.blog.s3.amazonaws.com/content/Text%20InputScope_thumb.jpg "Text InputScope")
+![Text InputScope](/images/Text%20InputScope_thumb.jpg "Text InputScope")
 
 When the user is typing standard text and can benefit from the full range of typing intelligence features:
 
@@ -91,7 +91,7 @@ Example fields: email subject and body, OneNote notes, appointment subject and n
 
 ### Chat
 
-![Chat InputScope](http://shawnoster.blog.s3.amazonaws.com/content/Chat%20InputScope_thumb.jpg "Chat InputScope")
+![Chat InputScope](/images/Chat%20InputScope_thumb.jpg "Chat InputScope")
 
 The user is expected to type text using standard words as well as slang and abbreviations and can benefit from some of the typing intelligence features:
 
@@ -105,9 +105,9 @@ Example fields: SMS, IM, Communicator, Twitter client, Facebook client, etc.
 
 ### Url
 
-![Url InputScope](http://shawnoster.blog.s3.amazonaws.com/content/Url%20InputScope_thumb.png "Url InputScope")
+![Url InputScope](/images/Url%20InputScope_thumb.png "Url InputScope")
 
-The user is expected to type a URL. All auto-correct features are turned off. Layout: Web layout with &ldquo;.com&rdquo; and &ldquo;go&rdquo; key
+The user is expected to type a URL. All auto-correct features are turned off. Layout: Web layout with `.com` and `go` key
 
 For a complete list of InputScopes supported in Windows Phone 7 check out this MSDN link: [InputScopeNameValue Enumeration][1].
 
