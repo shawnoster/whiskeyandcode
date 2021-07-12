@@ -2,7 +2,7 @@
 title = "The Silverlight Toolkit and You"
 date = "2008-10-28T21:10:00Z"
 categories = ["Code"]
-tags = ["Silverlight Toolkit", "Microsoft"]
+tags = ["Silverlight", "Microsoft"]
 draft = false
 +++
 
