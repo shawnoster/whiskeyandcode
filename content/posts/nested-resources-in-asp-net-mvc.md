@@ -2,7 +2,7 @@
 title = "Nested Resources In ASP.NET MVC"
 date = "2008-02-08T19:08:00Z"
 categories = ["Code"]
-tags = ["ASP.NET", "MVC">]
+tags = ["ASP.NET", "MVC"]
 draft = false
 +++
 
