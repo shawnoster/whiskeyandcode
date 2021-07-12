@@ -1,7 +1,9 @@
 +++
-draft = false
 title = "Slides + Code + Video from ‘An Introduction to Developing Applications for Microsoft Silverlight’ from MIX10"
 date = "2010-03-23T07:25:01Z"
+categories = ["Code"]
+tags = ["Microsoft", "Windows Phone", "Silverlight", "MIX"]
+draft = false
 +++
 
 I promised someone at the end of my talk that I'd post my code and slides and while I'm lagging a little behind I've finally bundled them up and made them available for download here:

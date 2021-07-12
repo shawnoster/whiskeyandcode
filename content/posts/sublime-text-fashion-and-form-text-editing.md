@@ -1,16 +1,18 @@
 +++
-draft = false
 title = "Sublime Text: Fashion and Form Text Editing"
 date = "2012-02-23T19:58:00Z"
+categories = ["Code"]
+tags = ["Sublime"]
+draft = false
 +++
 
 I have an odd love of text editors, though considering I love to code perhaps it's not that odd at all.  I've gone through quite a few over the years, I was a huge [TextPad](http://www.textpad.com/) fan for a long time and I still pull it up now and then but then I saw a bunch of screen shots of [TextMate](http://macromates.com/) on Mac and realized the bar had been reset.  From there I was on a search for an editor that was both smart AND sexy and I went through a bunch of editors looking for "the right one", from [E Text Editor](http://www.e-texteditor.com/) (nice but made me install cygwin for full power) to [Intype](http://inotai.com/intype/) (beautiful and had a great start but languished for a year though I hear they're working again in earnest) and finally to [Sublime Text 2](http://www.sublimetext.com/) which is what this post is all about.
 
 I've been using Sublime for about a year, since roughly Build 2020 of Subliime Text 2 and the project just keeps getting better and better.  I highly recommend you grab the [development builds](http://www.sublimetext.com/2) and install the latest as they come down the pipe.  Sublime is even nice enough to let you know when there are new builds available.
 
-![Sublime Text Main](http://shawnoster.blog.s3.amazonaws.com/content/Sublime%20Text%20Main.PNG "Sublime Text Main")
+![Sublime Text Main](/images/Sublime%20Text%20Main.PNG "Sublime Text Main")
 
-#### Why Use Anything Besides Visual Studio?
+## Why Use Anything Besides Visual Studio?
 
 Why indeed since I sling a lot of C# during my day?  First is the **speed**, VS does a lot for you and sometimes you pay that cost and when I just want to work with text I reach for Sublime.
 
@@ -26,23 +28,23 @@ Why indeed since I sling a lot of C# during my day?  First is the **speed**, VS 
 
 **And so much more.**  Seriously. Support for TextMate bundles, great color themes, code-folding, macro support, margin guides, a ton of extensibility, active forums, weekly updates, etc.
 
-#### Pro-Tips & Downloads
+## Pro-Tips & Downloads
 
-1.  Keep your Sublime configuration in sync between computers with DropBox (see [Using Dropbox to sync Sublime Text settings across Windows computers](http://juhap.iki.fi/misc/using-dropbox-to-sync-sublime-text-settings-across-windows-computers/)).
+1. Keep your Sublime configuration in sync between computers with DropBox (see [Using Dropbox to sync Sublime Text settings across Windows computers](http://juhap.iki.fi/misc/using-dropbox-to-sync-sublime-text-settings-across-windows-computers/)).
 
-2.  If you use VS don't forget to setup Sublime as an External Tool.  I'm constantly moving between VS & Sublime and since both programs are great about picking up changes this is a great combo.
+2. If you use VS don't forget to setup Sublime as an External Tool.  I'm constantly moving between VS & Sublime and since both programs are great about picking up changes this is a great combo.
 
-3.  Install [Sublime Package Control](http://wbond.net/sublime_packages/package_control).  Think of it as gems or NuGet for Sublime.  After you install it browse some of the cool packages available.  My current favs are:
+3. Install [Sublime Package Control](http://wbond.net/sublime_packages/package_control).  Think of it as gems or NuGet for Sublime.  After you install it browse some of the cool packages available.  My current favs are:
 
-    *   Sublime TFS - check out, commit & via history for files under TFS control.
-    *   sublime-github - A great list of commands for managing your Gists from Github.
-    *   SublimeAStyleFormatter - A pretty code formatter for C#.
-    *   Theme - Soda -  A nice dark theme for the entire editor itself.
+    * Sublime TFS - check out, commit & via history for files under TFS control.
+    * sublime-github - A great list of commands for managing your Gists from Github.
+    * SublimeAStyleFormatter - A pretty code formatter for C#.
+    * Theme - Soda -  A nice dark theme for the entire editor itself.
 
-4.  Check out what others are saying ([Rob Conery](http://wekeroad.com/2012/01/13/sublime-text-the-text-editor-youll-fall-in-love-with-3/))
+4. Check out what others are saying ([Rob Conery](http://wekeroad.com/2012/01/13/sublime-text-the-text-editor-youll-fall-in-love-with-3/))
 
-5.  Check out this great list of pro-tips ([Sublime Text 2 Tips and Tricks (Updated)](http://net.tutsplus.com/tutorials/tools-and-tips/sublime-text-2-tips-and-tricks/))
+5. Check out this great list of pro-tips ([Sublime Text 2 Tips and Tricks (Updated)](http://net.tutsplus.com/tutorials/tools-and-tips/sublime-text-2-tips-and-tricks/))
 
-6.  If you edit in XAML here is a XAML bundle I ported (it's basically a copy of the XML bundle and a porting of some of the TextMate snippets from the [Microsoft Gestalt project](http://visitmix.com/labs/gestalt/)).
+6. If you edit in XAML here is a XAML bundle I ported (it's basically a copy of the XML bundle and a porting of some of the TextMate snippets from the [Microsoft Gestalt project](http://visitmix.com/labs/gestalt/)).
 
-    *   [XAML Sublime Bundle](http://shawnoster.blog.s3.amazonaws.com/downloads/XAML.zip)
+    * [XAML Sublime Bundle](http://shawnoster.blog.s3.amazonaws.com/downloads/XAML.zip)

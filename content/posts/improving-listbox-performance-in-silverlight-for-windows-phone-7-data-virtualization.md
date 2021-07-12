@@ -1,14 +1,15 @@
 +++
-draft = false
 title = "Improving ListBox Performance in Silverlight for Windows Phone 7: Data Virtualization"
 date = "2010-08-17T10:13:57Z"
+categories = ["Code"]
+tags = ["Microsoft", "Windows Phone", "Silverlight"]
 +++
 
 There is a lot of data out there; on the internet, tucked away in databases, sitting patiently on the other side of a REST web service just waiting to pounce on your unsuspecting Windows Phone application that just wants to display a little slice of it all so people can read it, touch it and generally make sense of it. The problem is there is a lot of it, so what is a poor unsuspecting application to do, especially when it's been crammed into a form factor that doesn't allow ever expanding memory upgrades?
 
 In this post and a few to come I'm going to explore the various ways you can work with the ListBox (the go-to control for displaying lists of data) in your application to keep it speedy and responsive. Today we're going to start with a feature added in Silverlight for Windows Phone: Data Virtualization.
 
-### Data Virtualization
+## Data Virtualization
 
 Data virtualization is the concept of only loading "just enough" data to fill out your UI and be useful to interact with. This is particularly useful if your data set is large and can't all fit into memory at the same time. Good examples are the 3,000 images you took of various pancakes shaped like childhood cartoon characters or all 23,083 remixes of The Postal Services "[The District Sleeps Alone Tonight][1] you have loaded up on your phone.
 
@@ -99,11 +100,11 @@ One caveat is your `ListBox` needs to use a `DataTemplate` otherwise virtualizat
 
 Let's take this code for a spin. An F5 and emulator launch later and we're looking at this pretty screen:
 
-[![image](http://shawnoster.blog.s3.amazonaws.com/content/image_thumb_1.png "image")](http://shawnoster.blog.s3.amazonaws.com/content/picture=image_1.png)
+[![image](/images/image_thumb_1.png "image")](/images/image_1.png)
 
 As you can see we're using the Song created during the indexer call. To prove it's actually virtualized I added a Debug.WriteLine to output every time an item was requested:
 
-[![image](http://shawnoster.blog.s3.amazonaws.com/content/image_thumb_2.png "image")](http://shawnoster.blog.s3.amazonaws.com/content/image_2.png)
+[![image](/images/image_thumb_2.png "image")](/images/image_2.png)
 
 As you can see only 52 items were requested instead of the full 10,000. Why 52 instead of just 13? You always want a few items as buffer to give your virtualizing code a chance to actually do the work while items are being scrolled into view. For this reason we request about three page worth of data so your UI is always responsive.
 

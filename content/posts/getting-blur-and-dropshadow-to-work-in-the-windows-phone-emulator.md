@@ -1,22 +1,23 @@
 +++
-draft = false
 title = "Getting Blur And DropShadow to work in the Windows Phone Emulator"
 date = "2010-03-30T05:02:12Z"
+categories = ["Code"]
+tags = ["Microsoft", "Windows Phone"]
 +++
 
 I've noticed a few questions in the forums around why the Blur and DropShadow effects aren't showing up in the Windows Phone 7 Series emulator and the simple answer is you have to set CacheMode to BitmapCache.
 
 ```xml
 <TextBlock Text="DropShadow" Foreground="Black" FontSize="48" CacheMode="BitmapCache">
-	<TextBlock.Effect>
-		<DropShadowEffect/>
-	</TextBlock.Effect>
+    <TextBlock.Effect>
+        <DropShadowEffect/>
+    </TextBlock.Effect>
 </TextBlock>
 
 <TextBlock Text="Blur" Foreground="Black" FontSize="48" CacheMode="BitmapCache">
-	<TextBlock.Effect>
-    	<BlurEffect/>
-	</TextBlock.Effect>
+    <TextBlock.Effect>
+        <BlurEffect/>
+    </TextBlock.Effect>
 </TextBlock>
 ```
 
