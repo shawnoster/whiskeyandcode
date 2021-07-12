@@ -18,21 +18,22 @@ Even though SubSonic supports Rails-style auto-gen of your DAL via build provide
 
 Go to Tools ' Externals Tools... click "Add" and make it look like this:
 
-[![External Tools](http://shawnoster.blog.s3.amazonaws.com/content/ExternalTools_thumb.png)](http://shawnoster.blog.s3.amazonaws.com/content/ExternalTools.png)
+[![External Tools](/ExternalTools_thumb.png)](/ExternalTools.png)
 
-* That command is your path to **sonic.exe**  <li>If you're working with the MVC Toolkit (and why aren't you?) then change "App_CodeGenerated" to "ModelsGenerated"
+* That command is your path to **sonic.exe**
+* If you're working with the MVC Toolkit (and why aren't you?) then change "App_CodeGenerated" to "ModelsGenerated"
 
 ## 3. Create SubSonic DB as an external tool
 
 SubSonic can also version and script your database, very useful for source control and distributing your application. Same as above but make it look like this:
 
-[![External Tools (2)](http://shawnoster.blog.s3.amazonaws.com/content/ExternalTools2_thumb.png)](http://shawnoster.blog.s3.amazonaws.com/content/ExternalTools2.png)
+[![External Tools (2)](/ExternalTools2_thumb.png)](/ExternalTools2.png)
 
 ## 4. Install SubSonic Schema
 
-I dislike any warnings during a build and one you'll get with SubSonic is it not knowing about the SubSonic config sections.  I did a [blog post on how to fix this](http://a-simian-mind.blogspot.com/search/label/SubSonic) awhile back but I'm repeating here for the lazy (like myself):
+I dislike any warnings during a build and one you'll get with SubSonic is it not knowing about the SubSonic config sections.  I did a [blog post on how to fix this](/about/#search=SubSonic) awhile back but I'm repeating here for the lazy (like myself):
 
-1. Download [SubSonicSchema.xsd](http://shawnoster.blog.s3.amazonaws.com/downloads/SubSonicSchema.xsd) (if you right-click to download make sure you save it with an xsd extension)
+1. Download [SubSonicSchema.xsd](/SubSonicSchema.xsd) (if you right-click to download make sure you save it with an xsd extension)
 1. Put it in C:Program FilesMicrosoft Visual Studio 8.0XmlSchemas (adjust accordingly for VS2008)
 1. Edit DotNetConfig.xsd in the same folder and add the following line:
 

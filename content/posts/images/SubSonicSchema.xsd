@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="SubSonicService">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="providers">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="clear" />
+              <xs:element name="add">
+                <xs:complexType>
+                  <xs:attribute name="name" type="xs:string" use="required" />
+                  <xs:attribute name="type" type="xs:string" use="required" />
+                  <xs:attribute name="connectionStringName" type="xs:string" use="required" />
+                  <xs:attribute name="generatedNamespace" type="xs:string" use="optional" />
+                  <xs:attribute name="fixPluralClassNames" type="xs:boolean" default="true" use="optional" />
+                  <xs:attribute name="spClassName" type="xs:string" default="SPs" use="optional" />
+                  <xs:attribute name="useSPs" type="xs:boolean" default="true" use="optional" />
+                  <xs:attribute name="stripTableText" type="xs:string" use="optional" />
+                  <xs:attribute name="stripSPText" type="xs:string" use="optional" />
+                  <xs:attribute name="stripViewText" type="xs:string" use="optional" />
+                  <xs:attribute name="stripColumnText" type="xs:string" use="optional" />
+                  <xs:attribute name="stripParamText" type="xs:string" use="optional" />
+                  <xs:attribute name="appendWith" type="xs:string" default="X" use="optional" />
+                  <xs:attribute name="viewStartsWith" type="xs:string" use="optional" />
+                  <xs:attribute name="relatedTableLoadPrefix" type="xs:string" use="optional" />
+                  <xs:attribute name="removeUnderscores" type="xs:boolean" default="true" use="optional" />
+                  <xs:attribute name="regexMatchExpression" type="xs:string" use="optional" />
+                  <xs:attribute name="regexReplaceExpression" type="xs:string" use="optional" />
+                  <xs:attribute name="regexIgnoreCase" type="xs:string" default="true" use="optional" />
+                  <xs:attribute name="regexDictionaryReplace" type="xs:string" use="optional" />
+                  <xs:attribute name="includeTableList" type="xs:string" default="*" use="optional" />
+                  <xs:attribute name="excludeTableList" type="xs:string" use="optional" />
+                  <xs:attribute name="includeProcedureList" type="xs:string" default="*" use="optional" />
+                  <xs:attribute name="excludeProcedureList" type="xs:string" use="optional" />                  
+                  <xs:attribute name="generateLazyLoads" type="xs:boolean" default="false" use="optional" />
+                  <xs:attribute name="generateRelatedTablesAsProperties" type="xs:boolean" default="false" use="optional" />
+                  <xs:attribute name="extractClassNameFromSPName" type="xs:boolean" default="false" use="optional" />
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute name="defaultProvider" type="xs:string" use="required" />
+      <xs:attribute name="templateDirectory" type="xs:string" use="optional" />
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
