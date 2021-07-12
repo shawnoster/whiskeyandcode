@@ -10,7 +10,7 @@ I have an odd love of text editors, though considering I love to code perhaps it
 
 I've been using Sublime for about a year, since roughly Build 2020 of Subliime Text 2 and the project just keeps getting better and better.  I highly recommend you grab the [development builds](http://www.sublimetext.com/2) and install the latest as they come down the pipe.  Sublime is even nice enough to let you know when there are new builds available.
 
-![Sublime Text Main](/images/Sublime%20Text%20Main.PNG "Sublime Text Main")
+![Sublime Text Main](/images/SublimeTextMain.png "Sublime Text Main")
 
 ## Why Use Anything Besides Visual Studio?
 
