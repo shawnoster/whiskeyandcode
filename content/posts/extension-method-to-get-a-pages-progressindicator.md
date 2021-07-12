@@ -3,6 +3,7 @@ title = "Extension method to get a page's ProgressIndicator"
 date = "2011-07-20T21:59:58Z"
 categories = ["Code"]
 tags = ["Microsoft", "Windows Phone"]
+draft = false
 +++
 
 In Mango we added the ability to interact with the shell's native progress indicator along the top of the page. This is a great way to maintain UI consistency with the phone as well as get a smooth progress animation because the system is handling the animation vs. the Silverlight runtime. Here I'm recreating the 'save to phone' menu item you can see in the pictures hub by adding a "Saving picture..." progress indicator:

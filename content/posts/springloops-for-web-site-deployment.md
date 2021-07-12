@@ -2,7 +2,7 @@
 title = "Springloops for Web Site Deployment"
 date = "2008-04-24T09:30:21Z"
 categories = ["Code"]
-tags = ["CI", "CD"]
+tags = ["CI/CD"]
 draft = false
 +++
 

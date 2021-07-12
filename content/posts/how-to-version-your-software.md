@@ -3,6 +3,7 @@ title = "How to Version your Software"
 date = "2007-04-22T07:50:00Z"
 categories = ["Code"]
 tags = ["best practices"]
+draft = false
 +++
 
 Most developers live and breath version numbers, yet there are a few that either don't or don't really have a good rule of thumb on what their versions should mean. There are also quite a few people that have to deal with versions that aren't developers, such as tech support, marketing and new team members. For those people it's always a good idea for everyone to be on the same page.
