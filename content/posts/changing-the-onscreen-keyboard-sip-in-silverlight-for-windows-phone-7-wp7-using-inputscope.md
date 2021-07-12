@@ -53,7 +53,7 @@ Remember how in high school they'd always teach you the hard way before showing 
 
 When we were bringing InputScopes from WPF to Silverlight for Windows Phone I wrote a quick app to show all the available InputScopes and automatically set the selected one on a TextBox. This gives you a feel for how many there are and what layout comes up when set. Here is what it looks like along with a link to the source:
 
-[Download the source](http://shawnoster.blog.s3.amazonaws.com/downloads/InputScopes.zip).
+[Download the source](/downloads/InputScopes.zip).
 
 ![InputScope Sample Application](/images/InputScope%20Sample%20Application_thumb.png "InputScope Sample Application")
 

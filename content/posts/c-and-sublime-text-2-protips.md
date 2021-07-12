@@ -31,6 +31,6 @@ If you have a Sublime project open (which is really a collection folders that ac
 Visual Studio 2010 ships with some awesome and must-have C# snippets. I haven't tried to recreate them all in Sublime (I really do like VS you know) but there are some tricks Sublime can do that Visual Studio just can't. One nice one is being able to whip up some regex magic on replacements which comes in handy for things like changing the casing between private and public variables. An example will work better:
  <script src="https://gist.github.com/2642031.js?file=propc.sublime-snippet"></script>  
 
-Also VS doesn't support XAML snippets and that about makes me cry every time I have to type yet another angle bracket so go ahead and create some tasty XAML snippets. I dropped a few [into a zip here](http://shawnoster.blog.s3.amazonaws.com/downloads/XAML.zip).
+Also VS doesn't support XAML snippets and that about makes me cry every time I have to type yet another angle bracket so go ahead and create some tasty XAML snippets. I dropped a few [into a zip here](/downloads/XAML.zip).
 
 Have any other protips for working with C# or XAML inside of Sublime? I'd love to hear them and if you have any questions about my workflow don't be shy.

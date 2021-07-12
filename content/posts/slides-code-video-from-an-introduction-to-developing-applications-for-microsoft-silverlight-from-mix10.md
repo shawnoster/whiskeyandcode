@@ -8,13 +8,13 @@ draft = false
 
 I promised someone at the end of my talk that I'd post my code and slides and while I'm lagging a little behind I've finally bundled them up and made them available for download here:
 
-[Slides + Code](http://shawnoster.blog.s3.amazonaws.com/downloads/YouAreHere.zip)
+[Slides + Code](/downloads/YouAreHere.zip)
 
 Also, as a small note I'm slowly working this blog over to have a "Windows Phone 7 Design Series" look and feel, not sure how well the dark background and light text is going to carry over or how well my design kung fu will stack up but here goes.
 
 **UPDATE #1:** I'm also including the actual session itself here for your viewing pleasure. You can either watch it below or [directly on the MIX website](http://live.visitmix.com/MIX10/Sessions/CL15).
 
-**UPDATE #2:** Several people have asked me for sample code to the solution that has a Windows Phone and Silverlight desktop application both consuming the same Class Library. Well, [here it is for your downloading pleasure](http://shawnoster.blog.s3.amazonaws.com/code/TwoScreenApp.zip).
+**UPDATE #2:** Several people have asked me for sample code to the solution that has a Windows Phone and Silverlight desktop application both consuming the same Class Library. Well, [here it is for your downloading pleasure](/downloads/TwoScreenApp.zip).
 
 <object data="data:application/x-silverlight-2," type="application/x-silverlight-2"
     width="640" height="360">

@@ -41,7 +41,7 @@ There are some pretty great looking icons out there, with lovely drop shadows an
 ## Prepare your Form
 
 1. Add a `TImageList` to your form. Change the `Width` & `Height` properties to match the size of the icons you want to load (32x32 for example).
-1. Load this file: [uXPIcons.zip](http://shawnoster.blog.s3.amazonaws.com/downloads/uXPIcons.zip). It has routines that will enable your `TImageList` to support 32-bit XP style icons. I can't take any credit for these routines. I found them on someone elses site describing the exact same thing I am but I can't find it anymore.
+1. Load this file: [uXPIcons.zip](/downloads/uXPIcons.zip). It has routines that will enable your `TImageList` to support 32-bit XP style icons. I can't take any credit for these routines. I found them on someone elses site describing the exact same thing I am but I can't find it anymore.
 1. Unzip and add the uXPIcons.pas unit to your project.
 1. Create a new procedure called `InitializeImageList()` or some other fun name.
 1. Add the following code to your new procedure:

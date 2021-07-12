@@ -7,12 +7,12 @@ tags = ["Zune", "Delphi", "Winamp"]
 draft = false
 +++
 
-Before Zune I used [Winamp](https://winamp.com/) and one of the things I really liked was it's global hotkey support, the ability to control the player using just hotkeys. Ever since using the Zune I've found myself hitting `Ctrl + Alt + Home` to pause the player about a 100 times so instead of whining about it in yet another blog post I thought I'd actually do something. It was a slow afternoon on a Friday so I whipped up this, [ZuneKeys](http://shawnoster.blog.s3.amazonaws.com/downloads/ZuneKeys.zip), global hotkey support for the Zune software.
+Before Zune I used [Winamp](https://winamp.com/) and one of the things I really liked was it's global hotkey support, the ability to control the player using just hotkeys. Ever since using the Zune I've found myself hitting `Ctrl + Alt + Home` to pause the player about a 100 times so instead of whining about it in yet another blog post I thought I'd actually do something. It was a slow afternoon on a Friday so I whipped up this, [ZuneKeys](/downloads/ZuneKeys.zip), global hotkey support for the Zune software.
 
 ## Install
 
-1. [Download ZuneKeys](http://shawnoster.blog.s3.amazonaws.com/downloads/ZuneKeys.zip)
-2. Unzip and copy somewhere, personally I use `c:\program files\zunekeys`
+1. [Download ZuneKeys](/downloads/ZuneKeys.zip)
+2. Unzip and copy somewhere, personally I use `C:\Program Files\ZuneKeys`
 3. Run ZuneKeys.exe...
 4. ...and Bob's yer uncle! Now you have global hotkey support for your Zune software.  
 

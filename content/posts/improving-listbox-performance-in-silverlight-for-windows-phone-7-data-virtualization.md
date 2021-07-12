@@ -67,7 +67,7 @@ public class VirtualSongList : IList<string>, IList
 }
 ```
 
-NOTE: While the code is rather easy to implement it's boring, mind numbingly boring so I've made the above [implementation available for your source downloading](http://shawnoster.blog.s3.amazonaws.com/code/VirtualSongList.cs) pleasure.
+NOTE: While the code is rather easy to implement it's boring, mind numbingly boring so I've made the above [implementation available for your source downloading](/downloads/VirtualSongList.cs) pleasure.
 
 ### Bind to ListBox
 

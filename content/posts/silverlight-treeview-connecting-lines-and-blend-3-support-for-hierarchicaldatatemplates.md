@@ -99,7 +99,7 @@ And there you go! You now have connecting lines, with a plus/plus icon showing e
 
 **UPDATE:** I've been asked in the comments to provide the source so without further ado get it here:
 
-[**Connecting Lines Source**](http://shawnoster.blog.s3.amazonaws.com/downloads/TreeViewConnectingLines.zip)
+[**Connecting Lines Source**](/downloads/TreeViewConnectingLines.zip)
 
 ## Epilogue
 

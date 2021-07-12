@@ -47,4 +47,4 @@ Why indeed since I sling a lot of C# during my day?  First is the **speed**, VS 
 
 6. If you edit in XAML here is a XAML bundle I ported (it's basically a copy of the XML bundle and a porting of some of the TextMate snippets from the [Microsoft Gestalt project](http://visitmix.com/labs/gestalt/)).
 
-    * [XAML Sublime Bundle](http://shawnoster.blog.s3.amazonaws.com/downloads/XAML.zip)
+    * [XAML Sublime Bundle](/downloads/XAML.zip)

@@ -10,4 +10,4 @@ One of the software projects I work on involves printing color-coded, barcoded l
 
 So, I took a bunch of freely available tools, namely [GhostScript](http://www.cs.wisc.edu/~ghost/), [RedMon](http://www.cs.wisc.edu/~ghost/redmon/), and a Xerox DocuColor40 printer driver and rolled them into a [simple NSIS install](http://nsis.sourceforge.net/Main_Page) to create a Distiller Knock-Off. I did have to write a small [Win32 Delphi](http://www.turboexplorer.com/) application to do a little file management between RedMon and GhostScript but all it really does is shuffle files between the temp folder. I picked a DocuColor40 simply because I wanted the option to print to a 11x17 sheet of paper and I needed a PostScript driver.
 
-You can get it here: [Distiller-KO](http://shawnoster.blog.s3.amazonaws.com/downloads/Distiller-KO.exe)
+You can get it here: [Distiller-KO](/downloads/Distiller-KO.exe)

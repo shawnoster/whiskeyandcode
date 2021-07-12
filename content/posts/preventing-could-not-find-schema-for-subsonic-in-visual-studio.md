@@ -10,7 +10,7 @@ My current favorite .NET DAL/ORM solution is [SubSonic](http://subsonicproject.c
 
 Enough praise though, this post is all about fixing an "issue" that annoys me. SubSonic does part of it's magic through the SubSonicService, which is a custom configuration section in your web or app config. Since it's a custom section Visual Studio won't give you code completion (aka Intellisense) and it'll spit out a ton of "Could not find schema information for blahblahblah" warnings. These warning are basically saying, "I have no idea what this crap is in the web.config so you get no fancy Intellisense magic from me". To get back some of that magic here's all you have to do:
 
-1. Download [SubSonicSchema.zip](http://shawnoster.blog.s3.amazonaws.com/downloads/SubSonicSchema.zip) (if you right-click to download make sure you save it with an xsd extension)
+1. Download [SubSonicSchema.zip](/downloads/SubSonicSchema.zip) (if you right-click to download make sure you save it with an xsd extension)
 
 2. Put it in `C:\Program Files\Microsoft Visual Studio 8.0\XmlSchemas`
 
