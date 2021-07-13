@@ -3,7 +3,7 @@ title = "Fleek.co and Hugo Extended"
 description = "Getting Hugo extended working with Fleek.co hosting"
 date = "2021-04-25"
 categories = ["Code"]
-tags = ["Home Automation", "IPFS", "Hugo", "Fleek.co"]
+tags = ["Home Automation", "IPFS", "Hugo", "Fleek.co", "Docker"]
 draft = false
 +++
 
@@ -15,7 +15,7 @@ Hugo is my static site generator of choice and [Go with Hugo and Fleek](https://
 
 ## Build a Custom Docker Image From Fleek's Dockerfile
 
-Fleek's deployment pipeline allows the use of any Docker Hub image as the binary of your site's build step. The supported build systems are Docker images, with their Dockerfile's helpfully commited to Github.
+Fleek's deployment pipeline allows the use of any Docker Hub image as the binary of your site's build step. The supported build systems are Docker images, with their Dockerfile's helpfully committed to Github.
 
 I cloned the official Dockerfiles, updated them to point to Hugo extended, and published a new Docker image to use in the deployment settings on Fleek.
 
@@ -26,6 +26,8 @@ Fleek only accepts Docker images from Docker Hub so sign-up if you don't already
 1. Create a new repository: `<username>/huge-extended-for-fleek`.
 
 ### Create Dockerfile file
+
+I'm doing this on a Windows box but the steps are basic enough that they should work everywhere, with appropriate tweaks.
 
 1. Grab the latest Hugo Dockerfile from [Fleek's Docker Image Github repo](https://github.com/FleekHQ/site-builder-docker-images)
 
@@ -43,21 +45,21 @@ Fleek only accepts Docker images from Docker Hub so sign-up if you don't already
 
    FROM node:latest
 
-   ARG HUGO_VERSION=_extended_0.82.1
+   ARG HUGO_VERSION=_extended_0.85.0
 
    RUN apt-get update && apt-get install -y wget
 
-   RUN wget https://github.com/gohugoio/hugo/releases/download/v0.82.1/hugo_extended_0.82.1_Linux-64bit.tar.gz && \
-       tar -xf hugo_extended_0.82.1_Linux-64bit.tar.gz -C /usr/local/bin && \
-       hugo version && rm hugo_extended_0.82.1_Linux-64bit.tar.gz
-
+   RUN wget https://github.com/gohugoio/hugo/releases/download/v0.85.0/hugo_extended_0.85.0_Linux-64bit.tar.gz && \
+      tar -xf hugo_extended_0.85.0_Linux-64bit.tar.gz -C /usr/local/bin && \
+      hugo version && rm hugo_extended_0.85.0_Linux-64bit.tar.gz
+      
    RUN wget -q -O - https://raw.githubusercontent.com/canha/golang-tools-install-script/master/goinstall.sh | bash
    ```
 
 1. Build the image
 
    ```bash
-   docker build -t <username>/hugo-extended-for-fleek .
+   docker build -t <your docker username>/hugo-extended-for-fleek:85.0 .
    ```
 
 ### Publish Docker image
@@ -65,16 +67,24 @@ Fleek only accepts Docker images from Docker Hub so sign-up if you don't already
 1. Publish it to Docker Hub
 
    ```bash
-   docker push <username>/hugo-extended-for-fleek:latest
+   docker push <your docker username>/hugo-extended-for-fleek:85.0
    ```
 
 ### Use new Docker image
 
-1. Go to your host in Fleek
-1. Find Docker image
-1. Replace w/ `<username>/hugo-extended-for-fleek:latest`
+1. Find your site under the Hosting section on [Fleek.co](https://fleek.co/)
+1. Go to Settings -> Build & Deploy -> Specify Docker Image
+1. Edit Settings
+1. Replace contents with `<your docker username>/hugo-extended-for-fleek:85.0`
+   - (or use mine: `shawnoster/hugo-extended-for-fleek:85.0`)
 1. Trigger a new deploy
 
 ## Done
 
 And that's that.
+
+There are lots of great hugo images out there but the ones I found all required some fiddling to get them to work w/ Fleek.co while this image could be optimized it does work seamlessly with Fleek.co.
+
+You can always skip the above steps and use the image directly if you're looking for a drop-in replacement.
+
+**Huge Extended (85.0) for use with Fleek.co:** [shawnoster/hugo-extended-for-fleek](https://hub.docker.com/r/shawnoster/hugo-extended-for-fleek)
