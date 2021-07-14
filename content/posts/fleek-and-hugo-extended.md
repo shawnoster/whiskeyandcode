@@ -7,8 +7,6 @@ tags = ["Home Automation", "IPFS", "Hugo", "Fleek.co", "Docker"]
 draft = false
 +++
 
-# Fleek.co Hosting and Hugo Extended
-
 I've been exploring distributed low-level systems, such as transport protocols, packet-level encryption, and immutability in a decentralized system (blockchain). Part of that is rebooting my blog and hosting it via [Fleek](https://fleek.co/) over the [IPFS](https://ipfs.io/) protocol.
 
 Hugo is my static site generator of choice and [Go with Hugo and Fleek](https://blog.fleek.co/posts/go-with-hugo-and-fleek) is a great tutorial to get started. Everything worked pretty much as advertised until I picked a theme, [MemE](https://themes.gohugo.io/hugo-theme-meme/), that required the extended version of Hugo that supports Sass/SCSS.
@@ -21,9 +19,9 @@ I cloned the official Dockerfiles, updated them to point to Hugo extended, and p
 
 ### Create Docker repository
 
-Fleek only accepts Docker images from Docker Hub so sign-up if you don't already have one. You get one free repository per account (or is it one image? IDK, I only needed one).
+Fleek only accepts public Docker images hosted on Docker Hub, so sign-up for a free account if you don't have one. You get one free repository per account (or is it one image? IDK, I only needed one).
 
-1. Create a new repository: `<username>/huge-extended-for-fleek`.
+1. Create a new repository: `<docker username>/huge-extended-for-fleek`.
 
 ### Create Dockerfile file
 
@@ -34,6 +32,12 @@ I'm doing this on a Windows box but the steps are basic enough that they should 
 1. Created a new folder to stash the Dockerfile
 
    ```powershell
+   # these are simplified paths, in practice I use Dropbox to keep my files casually backed-up
+   # and put all source-type files under a \source folder.
+   #
+   # # where it lives on my machine:
+   # C:\Users\Shawn\Dropbox\source\docker\hugo-extended-for-fleek   
+   #
    mkdir c:\repos\docker\hugo-extended
    cd c:\repos\docker\hugo-extended
    ```
@@ -78,6 +82,8 @@ I'm doing this on a Windows box but the steps are basic enough that they should 
 1. Replace contents with `<your docker username>/hugo-extended-for-fleek:85.0`
    - (or use mine: `shawnoster/hugo-extended-for-fleek:85.0`)
 1. Trigger a new deploy
+
+![](/images/fleek-and-hugo-extended_2021-07-13-17-09-55.png)
 
 ## Done
 
