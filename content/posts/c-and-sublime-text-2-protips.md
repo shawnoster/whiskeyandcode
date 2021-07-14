@@ -16,9 +16,16 @@ This is a TextMate bundle so you'll need to do some slicing and dicing to get it
 
 ## 2. Add msbuild as a Build System
 
-I do a build sometimes as a quick and dirty syntax & sanity check and it's nice to be able to trigger it from Sublime vs. having to swap back to VS. I whipped this up and dropped it into my /Sublime Text 2/Packages/User folder as "msbuild.sublime-build".
+I do a build sometimes as a quick and dirty syntax & sanity check and it's nice to be able to trigger it from Sublime vs. having to swap back to VS. I whipped this up and dropped it into my `/Sublime Text 2/Packages/User` folder as `msbuild.sublime-build`.
 
- <script src="https://gist.github.com/2641948.js?file=msbuild.sublime-build"></script>  
+```json
+{
+    "cmd": ["msbuild"],
+    "path": "C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319",
+    "working_dir": "${project_path:${folder}}",
+    "file_regex": "^  (.*)\\(([0-9]*),([0-9]*)"
+}
+```
 
 F7 to compile, F4 to jump to each compiler error (I know, I know, you don't have bugs but that other coder...).
 
@@ -29,7 +36,32 @@ If you have a Sublime project open (which is really a collection folders that ac
 ## 3. Create Some Snippets
 
 Visual Studio 2010 ships with some awesome and must-have C# snippets. I haven't tried to recreate them all in Sublime (I really do like VS you know) but there are some tricks Sublime can do that Visual Studio just can't. One nice one is being able to whip up some regex magic on replacements which comes in handy for things like changing the casing between private and public variables. An example will work better:
- <script src="https://gist.github.com/2642031.js?file=propc.sublime-snippet"></script>  
+
+```xml
+<snippet>
+    <tabTrigger>propc</tabTrigger>
+    <content><![CDATA[
+private ${1:string} _${2};
+public ${1} ${2/./\u$0/}
+{
+    get
+    {
+        return _${2};
+    }
+    set
+    {
+        if (_${2} != value)
+        {
+            _${2} = value;
+            OnPropertyChanged("${2/./\u$0/}");
+        }
+    }
+}
+]]></content>
+    <scope>source.cs</scope>
+    <description>Property that raises PropertyChanged</description>
+</snippet>
+```
 
 Also VS doesn't support XAML snippets and that about makes me cry every time I have to type yet another angle bracket so go ahead and create some tasty XAML snippets. I dropped a few [into a zip here](/downloads/XAML.zip).
 
