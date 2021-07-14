@@ -32,7 +32,7 @@ Adding controls to Blend is even easier, though you do have to repeat this proce
 1. In your Project pane right-click on References, select Add Reference&hellip;.
 2. Add references to Microsoft.Windows.Controls, Microsoft.Windows.Controls.DataVisualization, Microsoft.Windows.Controls.Input.
 
-![Blend 2 Project Pane](/images/Blend%20Project%20Pane.PNG "Blend 2 Project Pane")
+   ![Blend 2 Project Pane](/images/Blend%20Project%20Pane.PNG "Blend 2 Project Pane")
 
 3. The controls will now appear in the Custom Controls section of the Asset Library.
 
