@@ -14,15 +14,15 @@ Web developer can pretty much mean anything these days so I find it best to ask 
 
 ## Learn HTML/CSS
 
-You've gotta learn the basic currency of the web before you can get fancy pants on it so getting a solid understanding of good, standards-based semantic HTML and CSS (vs. table tag soup) is key. Regardless of which whiz-bang rocket framework you use in the end it all comes down to pushing HTML so you need to know how to craft good basic pages. 
+You've gotta learn the basic currency of the web before you can get fancy pants on it so getting a solid understanding of good, standards-based semantic HTML and CSS (vs. table tag soup) is key. Regardless of which whiz-bang rocket framework you use in the end it all comes down to pushing HTML so you need to know how to craft good basic pages.
 
-I also suggest forgetting about Dreamweaver, FrontPage or any other HTML editor, for now. In fact I'd suggest using just a really solid text editor like [TextPad](http://www.textpad.com/), [InType](http://intype.info/home/index.php) or [E](http://www.e-texteditor.com/). My current favorite is InType because it doesn't require the cygwin install like E yet it has better syntax highlighting and snippet expansion than TextPad. When learning HTML you want to be as close to the metal as possible. 
+I also suggest forgetting about Dreamweaver, FrontPage or any other HTML editor, for now. In fact I'd suggest using just a really solid text editor like [TextPad](http://www.textpad.com/), [InType](http://intype.info/home/index.php) or [E](http://www.e-texteditor.com/). My current favorite is InType because it doesn't require the cygwin install like E yet it has better syntax highlighting and snippet expansion than TextPad. When learning HTML you want to be as close to the metal as possible.
 
-There are a ton of great books and websites out there teaching this stuff. Two of my favorites are ["Bulletproof Web Design"](http://www.simplebits.com/publications/bulletproof/) and ["Web Standards Solutions"](/blog/admin/Pages/Web%20Standards%20Solutions), both by [Dan Cederholm](http://www.simplebits.com/), who presents web design (as in the HTML, not Photoshop comp work) in a real-world, useful manner. Good stuff. 
+There are a ton of great books and websites out there teaching this stuff. Two of my favorites are ["Bulletproof Web Design"](http://www.simplebits.com/publications/bulletproof/) and ["Web Standards Solutions"](/blog/admin/Pages/Web%20Standards%20Solutions), both by [Dan Cederholm](http://www.simplebits.com/), who presents web design (as in the HTML, not Photoshop comp work) in a real-world, useful manner. Good stuff.
 
 ## Learn JavaScript
 
-I'm still iffy on this one since you could argue that JavaScript could come later but I feel it's best to at least get a rudimentary understanding of JavaScript to learn the basics like client-side validation, confirmation boxes and how to use one of the various JavaScript libraries out there like [Prototype](http://www.prototypejs.org/), [jQuery](http://jquery.com/), [ExtJS](http://extjs.com/). Most server-side frameworks try to color the basic way you use JavaScript which I feel can dilute a person's understanding of just what client-side coding is all about. 
+I'm still iffy on this one since you could argue that JavaScript could come later but I feel it's best to at least get a rudimentary understanding of JavaScript to learn the basics like client-side validation, confirmation boxes and how to use one of the various JavaScript libraries out there like [Prototype](http://www.prototypejs.org/), [jQuery](http://jquery.com/), [ExtJS](http://extjs.com/). Most server-side frameworks try to color the basic way you use JavaScript which I feel can dilute a person's understanding of just what client-side coding is all about.
 
 ## Pick Your Poison (Server-Side Framework)
 
