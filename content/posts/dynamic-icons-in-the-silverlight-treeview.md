@@ -43,7 +43,7 @@ Another option is to add an Icon property to your object and bind the Content di
 <contentpresenter margin="0 0 4 0" content="{Binding Icon}" />
 ```
 
-In your descendent classes you can override the Icon property and return the appropriate image for that class. You can even go further and return different images based on state, such as availability, status, quantity, etc. 
+In your descendent classes you can override the Icon property and return the appropriate image for that class. You can even go further and return different images based on state, such as availability, status, quantity, etc.
 
 Object model purists may be frothing at the mouth, since I dared put UI information into my objects, and in some scenarios I'd completely agree but what we're doing here is creating UI model objects, not business model objects. It's a common pattern and has the great benefit of making your UI testable from inside unit tests instead of having to rely solely on UI macro recorder/playback frameworks. I go so far as to recommend that if you're doing a lot with states like icons, if something checked, multi-selection, color-coding, etc. that you create objects that sit between your business object and the actual UI elements.
 
