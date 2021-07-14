@@ -6,8 +6,6 @@ tags = ["Antsle", "Home Assistant", "InfluxDB", "Grafana"]
 draft = false
 +++
 
-# Running Home Assistant on an Antsle Nano
-
 A brief overview of my [Home Assistant](https://www.home-assistant.io/) setup.
 
 This is a tour rather than a step-by-step with the goal of reassuring new Antsle owners that you can run all these wonderful things on it and as a reminder to myself for some of the more common setup steps I run. I also start with a bit of the "why".
@@ -94,7 +92,7 @@ Part of the fun of HA is that I can log in from anywhere and control my entire h
 Nothing too magic here:
 
 1. Reserve IP address via MAC address in router to always use the same IP (this makes things easier, I recommend everyone creates a home network map and reserve IP addresses for all appliances)
-1. Setup a dynamic DNS - https://www.duckdns.org
+1. Setup dynamic DNS with a service like [DuckDNS.org](https://www.duckdns.org)
 1. In your router forward port 8123 to the Nano (HA runs on 8123 by default)
 1. Edit `configuration.yaml`
 
