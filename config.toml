@@ -216,13 +216,19 @@ uglyURLs = false
         pre = "internal"
         post = "tags"
     [[menu.main]]
+        url = "/quotes/"
+        name = "Quotes"
+        weight = 5
+        pre = "internal"
+        post = "pencil-alt"        
+    [[menu.main]]
         url = "/about/"
         name = "About"
-        weight = 5
+        weight = 6
         pre = "internal"
         post = "user-circle"
     [[menu.main]]
-        weight = 6
+        weight = 7
         identifier = "theme-switcher"
     [[menu.main]]
         weight = 7
