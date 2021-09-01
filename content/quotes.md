@@ -1,5 +1,5 @@
 ---
-modified: 2021-08-30T20:27:08-07:00
+modified: 2021-08-31T20:59:09-07:00
 ---
 
 # Quotes
@@ -10,3 +10,5 @@ _"Like a Boy Scout, always be prepared, knives and cookies!"_ - Brook
 ― Raymond Chandler
 
 _“Hit them in the throat!”_ - Shannon, 2021.08.29, in reference to watching a minor fracas in front of Lava Lounge
+
+–“Better to be thrown in a dark cell for daring to envision a better future than critiquing the failings of the now.”– - Future Quote 
