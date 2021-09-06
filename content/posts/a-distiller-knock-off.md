@@ -1,10 +1,10 @@
-+++
-title = "A Distiller Knock-Off"
-date = "2006-09-23"
-categories = ["Code"]
-tags = ["Delphi"]
-draft = false
-+++
+---
+title: "A Distiller Knock-Off"
+date: 2006-09-23
+categories: ["Code"]
+tags: ["Delphi"]
+draft: false
+---
 
 One of the software projects I work on involves printing color-coded, barcoded labels. Yes, exactly, the height of fun. Often I need to validate that a code change I just made hasn't completely messed up the rendering engine. Because resolution is a huge issue in things like barcodes I need to actually print through a printer driver vs. just doing a screen preview. Being a good recycling citizen I hate wasting paper, hence where Adobe's Acrobat Distiller and my cheap ass nature come into the picture. I like the concept of Distiller, I don't like paying for it.
 
