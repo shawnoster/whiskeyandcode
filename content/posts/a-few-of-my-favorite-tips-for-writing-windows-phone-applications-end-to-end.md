@@ -1,10 +1,13 @@
-+++
-title = "A few of my favorite tips for writing Windows Phone applications end-to-end"
-date = "2012-02-06T01:35:08Z"
-categories = ["Code"]
-tags = ["Microsoft", "Windows Phone"]
-draft = false
-+++
+---
+title: "Tips for writing Windows Phone applications end-to-end"
+date: 2012-02-06T01:35:08Z
+categories:
+    - Code
+tags: 
+    - Microsoft
+    - Windows Phone
+draft: false
+---
 
 I'm currently working on a [GoodReads](http://www.goodreads.com/) client for Windows Phone and while I've written a ton of phone code for various demos, API smoke testing, targeted "how do I" questions, etc. it's an entirely different beast to write an application end-to-end. The technical questions are often the easiest and if you've been coding for more than a few years (or months, you rockstar you) the problems and questions that keep you up at night shift from technical ("how do I save an image to the phone?") to architectural ("what's the best pattern for integrating a REST client into my caching framework?").
 
