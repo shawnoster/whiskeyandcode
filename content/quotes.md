@@ -13,5 +13,6 @@ _“Hit them in the throat!”_ - Shannon, 2021.08.29, in reference to watching 
 
 _“Better to be thrown in a dark cell for daring to envision a better future than critiquing the failings of the now.”_ - Future Quote
 
-_”You don’t have to read it to me.”
-“Well, that was a fun way to tell me not to talk”_ - Shannon, Shawn, 2021.09.02, while reading every dialogue bubble in “Caves of Quid”
+_”You don’t have to read it to me.”_
+<br/>
+_“Well, that was a fun way to tell me not to talk”_ - Shannon, Shawn, 2021.09.02, while reading every dialogue bubble in [“Caves of Qud”](https://www.cavesofqud.com/)
