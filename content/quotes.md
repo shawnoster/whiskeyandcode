@@ -1,6 +1,5 @@
 ---
-modified: 2021-09-05T22:06:58.000Z
-lastmod: '2021-09-06T22:25:10.946Z'
+modified: 2021-09-10T15:17:12-07:00
 ---
 
 # Quotes
@@ -17,3 +16,7 @@ _“Better to be thrown in a dark cell for daring to envision a better future th
 _”You don’t have to read it to me.”_
 <br/>
 _“Well, that was a fun way to tell me not to talk”_ - Shannon, Shawn, 2021.09.02, while reading every dialogue bubble in [“Caves of Qud”](https://www.cavesofqud.com/)
+
+_”My girlfriend likes to walk around with a huge bag of goldfish, eating them around the house. She get’s ‘em from CostCo.”_ - Shawn
+<br/>
+_”Oh thank god you said that Co!”_ - Kitty, 2021.09.10, Black Cat
