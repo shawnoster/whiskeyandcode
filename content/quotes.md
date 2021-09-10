@@ -1,6 +1,5 @@
 ---
-modified: 2021-09-10T15:11:25-07:00
-lastmod: 2021-09-06T22:25:10.946Z
+modified: 2021-09-10T15:17:12-07:00
 ---
 
 # Quotes
@@ -20,4 +19,4 @@ _“Well, that was a fun way to tell me not to talk”_ - Shannon, Shawn, 2021.0
 
 _”My girlfriend likes to walk around with a huge bag of goldfish, eating them around the house. She get’s ‘em from CostCo.”_ - Shawn
 <br/>
-_”Oh thank god you said that Co!” - Kitty, 2021.09.10, Black Cat
+_”Oh thank god you said that Co!”_ - Kitty, 2021.09.10, Black Cat
