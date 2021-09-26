@@ -1,5 +1,5 @@
 ---
-modified: 2021-09-26T14:51:48-07:00
+modified: 2021-09-26T14:53:46-07:00
 ---
 
 # Quotes
@@ -21,4 +21,4 @@ _”My girlfriend likes to walk around with a huge bag of goldfish, eating them 
 <br/>
 _”Oh thank god you said that Co!”_ - Kitty, 2021.09.10, Black Cat
 
-“The dog is boy. The dog **is** boy.” - Mel, 2021.09.26, Rabbit Hole
+_“The dog is boy. The dog **is** boy.”_ - Mel, 2021.09.26, Rabbit Hole
