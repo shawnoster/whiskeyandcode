@@ -1,9 +1,9 @@
 ---
-title = "ASP.NET MVC Makes .NET Fun Again"
-date = 2007-12-14T11:27:00Z
-categories = ["Code"]
-tags = ["ASP.NET", "MVC", ".NET"]
-draft = false
+title: "ASP.NET MVC Makes .NET Fun Again"
+date: 2007-12-14T11:27:00Z
+categories: ["Code"]
+tags: ["ASP.NET", "MVC", ".NET"]
+draft: false
 ---
 
 I've been dabbling in the Ruby on Rails world for awhile and I've always been drawn to the very clean separation of the Model-View-Controller framework, something Rails pretty much nailed in their implementation. I've done a few small Rails sites here and there, played with it enough to be dangerous but I didn't use it enough in my daily life to really get it under my belt. At the same time I was doing a lot of ASP.NET work and felt like I was constantly fighting the WebForms architecture to get it to produce proper stateless standards-compliant web applications that were based around the concept of request/response. I'd disable ViewState, override Inits(), hack into the page lifecycle and ignore server controls so I had real control the HTML output and get back my CSS id selectors. In a very bad way WebForms reminded me of VB6 and all the hacks I had to do during my stint with that language.
