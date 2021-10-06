@@ -25,4 +25,4 @@ _“The dog is boy. The dog **is** boy.”_ - Mel, 2021.09.26, Rabbit Hole
 
 _”I woke up next to you and didn’t know where I was!”_ - Jessica, 2021.10.01, talking to her sister
 
-_"Someone brought a pinata, then someone lit it on fire. Then Jeremy used a machete instead of the bat to hit the flaming pinate. Instead of busting open and spreading candy everywhere it turned into a fireball that hit T. Needless to say that was the end of that Thanksgiving."_ - Bobby Love, 2021.10.05, 🐰 The Rabbit Hole
+_"Someone brought a piñata, then someone lit it on fire. Then Jeremy used a machete instead of the bat to hit the flaming piñata. Instead of busting open and spreading candy everywhere it turned into a fireball that hit T. Needless to say that was the end of that Thanksgiving."_ - Bobby Love, 2021.10.05, 🐰 The Rabbit Hole
