@@ -1,7 +1,7 @@
 ---
 title: Your Inner Remembrance One
-date: 2009-06-18T00:44:17Z
-draft: true
+date: "2009-06-18"
+draft: false
 ---
 
 Part of my personal daily rounds is catching up on all the gaming news which means hitting up [Engadget](http://www.engadget.com/) and [Joystiq](http://www.joystiq.com/). I was reading a [recent tidbit](http://www.engadget.com/2009/06/17/xbox-360-jasper-motherboard-with-512mb-storage-hitting-us-stores/) about how new XBox 360's are starting to show up with both the Jasper motherboard and 512MB of internal memory, something some of you may or may not be as excited about as I am.

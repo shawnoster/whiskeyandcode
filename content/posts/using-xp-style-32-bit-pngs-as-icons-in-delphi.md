@@ -1,7 +1,12 @@
 ---
-title: Using XP-style, 32-bit png's as icons in Delphi
-date: 2007-05-11T07:39:00Z
-draft: true
+title: "Using XP-style, 32-bit png's as icons in Delphi"
+date: "2007-05-11"
+categories:
+- Delphi
+tags:
+- code
+- delphi
+draft: false
 ---
 
 There are some pretty great looking icons out there, with lovely drop shadows and alpha-blending, problem is they look pretty bad in Delphi since it doesn't fully support them. Below is how I use XP-style, 32-bit png images as icons inside my Delphi applications.

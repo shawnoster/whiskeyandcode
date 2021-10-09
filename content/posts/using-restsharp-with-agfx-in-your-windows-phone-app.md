@@ -1,9 +1,12 @@
 ---
 title: Using RestSharp with AgFx in your Windows Phone app
-date: 2012-02-15T02:16:17Z
+date: "2012-02-15"
 categories:
-    - Windows Phone
-draft: true
+- Windows Phone
+tags:
+- code
+- csharp
+draft: false
 ---
 
 I'm using the excellent REST library [RestSharp](http://restsharp.org) for all my REST and OAuth calls. I'm also using the amazing data caching framework [AgFx](http://agfx.codeplex.com/) written by Shawn Burke which handles caching your web requests, something that goes from a nice to have to critical when writing high performance Windows Phone apps.

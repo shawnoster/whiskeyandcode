@@ -1,7 +1,7 @@
 ---
-title: Sublime Text: Fashion and Form Text Editing
-date: 2012-02-23T19:58:00Z
-draft: true
+title: "Sublime Text: Fashion and Form Text Editing"
+date: "2012-02-23"
+draft: false
 ---
 
 I have an odd love of text editors, though considering I love to code perhaps it's not that odd at all.  I've gone through quite a few over the years, I was a huge [TextPad](http://www.textpad.com/) fan for a long time and I still pull it up now and then but then I saw a bunch of screen shots of [TextMate](http://macromates.com/) on Mac and realized the bar had been reset.  From there I was on a search for an editor that was both smart AND sexy and I went through a bunch of editors looking for "the right one", from [E Text Editor](http://www.e-texteditor.com/) (nice but made me install cygwin for full power) to [Intype](http://inotai.com/intype/) (beautiful and had a great start but languished for a year though I hear they're working again in earnest) and finally to [Sublime Text 2](http://www.sublimetext.com/) which is what this post is all about.

@@ -1,7 +1,9 @@
 ---
 title: Dynamic Icons in the Silverlight TreeView
-date: 2008-11-07T00:35:00Z
-draft: true
+date: "2008-11-07"
+categories:
+- Silverlight
+draft: false
 ---
 
 A common question in the [forums](http://silverlight.net/forums/35.aspx) has been how to get dynamic icons in the [Silverlight Toolkit](http://www.codeplex.com/Silverlight) TreeView and luckily there are quite a few options.

@@ -1,9 +1,9 @@
 ---
 title: The Silverlight Toolkit and You
-date: 2008-10-28T21:10:00Z
+date: "2008-10-28"
 categories:
-    - Silverlight
-draft: true
+- Silverlight
+draft: false
 ---
 
 Ever since joining Microsoft back in August 2008 this blog has been pretty quiet and not just because I've been rolling around in the autumn leaves on campus but because of this gem, the [Silverlight Toolkit](http://www.codeplex.com/Silverlight).

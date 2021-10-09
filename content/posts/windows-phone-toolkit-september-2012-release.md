@@ -1,9 +1,9 @@
 ---
-title: Windows Phone Toolkit - September 2012 Release
-date: 2012-10-15T01:47:49Z
+title: "Windows Phone Toolkit - September 2012 Release"
+date: "2012-10-15"
 categories:
-    - Windows Phone
-draft: true
+- Windows Phone
+draft: false
 ---
 
 A few astute people ([@Patric68](http://twitter.com/Patric68),&nbsp; [@scottisafool](http://twitter.com/scottisafool)) have noticed that we pushed out the [September 2012 release of the Windows Phone Toolkit](http://silverlight.codeplex.com/releases/view/94435).&nbsp; This was a soft launch, quietly pushed out because we've been going like crazy with bug fixes, prepping for [Build](http://www.buildwindows.com/) and doing a whole host of things and I really wanted to get a build out that had the latest fixes and improvements without blocking on all the paperwork. That's agile baby!

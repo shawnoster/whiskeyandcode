@@ -1,7 +1,9 @@
 ---
 title: Silverlight TreeView Connecting Lines And Blend 3 Support for HierarchicalDataTemplates
-date: 2009-08-26T01:55:00Z
-draft: true
+date: "2009-08-26"
+categories:
+- Silverlight
+draft: false
 ---
 
 The [July 2009 release of the Silverlight Toolkit](http://www.codeplex.com/Silverlight/Release/ProjectReleases.aspx) has a bunch of great things in it but a few of them require just a little digging. A common request in the forums and on CodePlex is [how to add connecting lines to the standard TreeView](http://silverlight.codeplex.com/WorkItem/View.aspx?WorkItemId=851). Well, thanks to TreeViewExtensions and a pre-built template it's now an easy request to fulfill.

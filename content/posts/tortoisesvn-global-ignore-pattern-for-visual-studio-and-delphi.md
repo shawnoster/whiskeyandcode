@@ -1,7 +1,9 @@
 ---
 title: TortoiseSVN global ignore pattern for Visual Studio and Delphi
-date: 2007-01-05
-draft: true
+date: "2007-01-05"
+categories:
+- Delphi
+draft: false
 ---
 
 Seems I'm reinstalling all the time and I commonly forget my global ignore pattern for svn. Here it is for future me:

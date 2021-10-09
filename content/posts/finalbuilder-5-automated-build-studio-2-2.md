@@ -1,8 +1,7 @@
 ---
 title: FinalBuilder 5 & Automated Build Studio 2.2
 date: "2006-11-30"
-categories = ["Code"]
-draft: true
+draft: false
 ---
 
 A few review notes, comparing two popular automated build tools, [FinalBuilder 5.0](http://www.finalbuilder.com/finalbuilder.aspx "FinalBuilder 5.0 Home Page") and [Automated Build Studio 2.2](http://www.automatedqa.com/products/abs/index.asp "Automated Build Studio Home Page"). These are just notes I'm making as I try and port an old [WANT](http://sourceforge.net/projects/want/ "WANT Home Page") script (like ANT, but more focused on Delphi). I'm still trying to decide which one I like better and these notes are to help me, and possibly you, decide.

@@ -1,9 +1,9 @@
 ---
 title: How to make the Windows Phone Toolkit ToggleSwitch Header wrap
-date: 2012-04-28T00:06:42Z
+date: "2012-04-28"
 categories:
     - Windows Phone
-draft: true
+draft: false
 ---
 
 I'm going through the [Windows Phone Toolkit](http://silverlight.codeplex.com/) bugs fixing some of the low hanging fruit and came across [this bug](http://silverlight.codeplex.com/workitem/10612) where a ToggleSwitch with a long header is clipped. The proper Metro behavior is that it should wrap which is easy enough to do on a TextBlock. The rub though is that the Header is represented by a ContentControl, not a TextBlock.

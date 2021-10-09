@@ -1,7 +1,9 @@
 ---
 title: Updated ZuneKeys
-date: 2007-11-16
-draft: true
+date: "2007-11-16"
+categories:
+- Zune
+draft: false
 ---
 
 Awhile back I wrote a wee [little Delphi application](/posts/zunekeys-global-hotkey-support-for-zune) to mimic WinAmp's Global Hotkeys in the Zune software, call [ZuneKeys](/downloads/ZuneKeys.zip). With the new Zune software out I had to update ZuneKeys to work with it so if you're one of the three people that actually like global hotkeys go ahead and grab the new version from the above links.

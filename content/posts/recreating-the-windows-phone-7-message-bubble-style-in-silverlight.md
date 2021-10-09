@@ -1,9 +1,9 @@
 ---
-title: Recreating the Windows Phone 7 message “bubble” style in Silverlight
-date: 2011-07-22T23:16:52Z
+title: Recreating the Windows Phone 7 message bubble style in Silverlight
+date: "2011-07-22"
 categories:
-    - Windows Phone
-draft: true
+- Windows Phone
+draft: false
 ---
 
 In a little app I'm working on to exercise some new Mango features I needed to create the message "bubble" and oddly enough didn't stumble across any samples I could easily use even though a large number of apps have recreated this style, most likely because it's so easy to do.

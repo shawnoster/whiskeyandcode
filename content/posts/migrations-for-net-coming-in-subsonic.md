@@ -1,7 +1,9 @@
 ---
 title: Migrations for .NET coming in SubSonic
-date: 2007-10-04T19:40:00Z
-draft: true
+date: "2007-10-04"
+categories:
+- SubSonic
+draft: false
 ---
 
 I'm being lazy and just posting a link because I think this feature is that cool:

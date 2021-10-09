@@ -1,9 +1,9 @@
 ---
-title: Crazy Coincidental Coding, Batman!"
-date: "2010-08-18T01:57:19Z"
-categories = ["Code"]
-tags = ["Microsoft", "Windows Phone", "Silverlight"]
-draft: true
+title: Crazy Coincidental Coding, Batman!
+date: "2010-08-18"
+categories: 
+    - Windows Phone
+draft: false
 ---
 
 My Windows Phone cohort and all-round good guy [Peter Torr](http://blogs.msdn.com/b/ptorr/) posted on _exactly_ the same topic that I did at almost exactly the same time... and we didn't co-ordinate it at all!

@@ -1,9 +1,7 @@
 ---
-title: C# and Sublime Text 2 PROTIPS"
-date: "2012-05-09T07:26:14Z"
-categories = ["Code"]
-tags = ["C#", "Sublime"]
-draft: true
+title: C# and Sublime Text 2 PROTIPS
+date: "2012-05-09"
+draft: false
 ---
 
 Given how powerful, fast and easy [Sublime Text 2](http://www.sublimetext.com/blog/articles/sublime-text-2-beta) is I find myself editing a great deal of my C# & XAML code in it and then switching to Visual Studio to launch the application. Along those lines I've picked up a few C# Sublime tips.

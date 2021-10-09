@@ -1,7 +1,9 @@
 ---
 title: Nested Resources In ASP.NET MVC
-date: 2008-02-08T19:08:00Z
-draft: true
+date: "2008-02-08"
+categories:
+- ASP.NET
+draft: false
 ---
 
 Often you'll need to represent some hierarchical or parent-child relationship in your application and one thing you'll struggle with is how to cleanly mesh both the parent and child controllers yet keep them nice and RESTful. The secret is in good routing.

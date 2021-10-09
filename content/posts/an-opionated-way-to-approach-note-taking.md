@@ -1,6 +1,8 @@
 ---
-title: 'My Approach to Note Taking using Dendron'
-date: 2021-09-12T00:09:01.785Z
+title: My Approach to Note Taking using Dendron
+date: "2021-09-12"
+categories:
+- Dendron
 draft: false
 ---
 

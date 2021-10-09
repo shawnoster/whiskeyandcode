@@ -1,7 +1,9 @@
 ---
-title: Preventing \"Could not find schema...\" for SubSonic in Visual Studio
-date: 2007-08-18T09:05:00Z
-draft: true
+title: Preventing "Could not find schema" for SubSonic in Visual Studio
+date: "2007-08-18"
+categories:
+- SubSonic
+draft: false
 ---
 
 My current favorite .NET DAL/ORM solution is [SubSonic](http://subsonicproject.com/). It strikes a good balance of being helpful without hindering, partly due to it being heavily inspired by Rails as well as the creator's focus not only on good code but good architecture and design. Another great thing about the project is that the creator, Rob Conery, does frequent screencasts explaining the nooks and crannies of SubSonic as well as writing informative, engaging and colorful posts over on [his blog](http://spook.wekeroad.com/).

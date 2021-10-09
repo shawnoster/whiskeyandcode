@@ -1,9 +1,7 @@
 ---
-title: Develop for Your Customers, not other Developers"
-date: "2007-10-17T17:55:00Z"
-categories = ["Code"]
-tags = ["UI", "best practices"]
-draft: true
+title: Develop for Your Customers, not other Developers
+date: "2007-10-17"
+draft: false
 ---
 
 Recently my wife has been struggling with a web developer and he epitomizes a type that you find in specialized areas; someone that looks down upon and punishes those that aren't also in the field.

@@ -1,7 +1,9 @@
 ---
 title: Migrations In SubSonic
-date: 2008-04-13T10:13:00Z
-draft: true
+date: "2008-04-13"
+categories:
+- SubSonic
+draft: false
 ---
 
 

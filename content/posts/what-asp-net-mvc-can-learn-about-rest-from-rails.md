@@ -1,6 +1,6 @@
 ---
 title: What ASP.NET MVC Can Learn About REST from Rails
-date: 2008-02-20T08:47:00Z
+date: "2008-02-20"
 draft: false
 ---
 

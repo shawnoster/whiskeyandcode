@@ -1,9 +1,9 @@
 ---
-title: WP8 XAML App Development @ Build 2012
-date: 2012-11-03T00:45:43Z
+title: "WP8 XAML App Development at Build 2012"
+date: "2012-11-03"
 categories:
-    - Windows Phone
-draft: true
+- Windows Phone
+draft: false
 ---
 
 I gave my [Build 2012](http://www.buildwindows.com/) talk this week and it was all around WP8 XAML app development showing off some of cool new features in the XAML platform that you can incorporate into your apps.

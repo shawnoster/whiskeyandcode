@@ -1,8 +1,6 @@
 ---
-title: "ASP.NET MVC Makes .NET Fun Again"
-date: 2007-12-14T11:27:00Z
-categories: ["Code"]
-tags: ["ASP.NET", "MVC", ".NET"]
+title: ASP.NET MVC Makes .NET Fun Again
+date: "2007-12-14"
 draft: false
 ---
 

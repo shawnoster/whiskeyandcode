@@ -1,7 +1,7 @@
 ---
 title: .NET Framework Guts Exposed
-date: 2008-01-17T17:45:00Z
-draft: true
+date: "2008-01-17"
+draft: false
 ---
 
 Remember that scene in Star Wars when Luke (or was it Han Solo?) cuts open that crazy goat-beast thing's belly and slides inside for life-giving warmth? Well the .NET guys have done the same today by making the [.NET Framework Library source code available](http://weblogs.asp.net/scottgu/archive/2008/01/16/net-framework-library-source-code-now-available.aspx) for nerdly enjoyment.

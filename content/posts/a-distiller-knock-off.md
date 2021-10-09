@@ -1,6 +1,6 @@
 ---
 title: A Distiller Knock-Off
-date: 2006-09-23T00:00:00.000Z
+date: "2006-09-23"
 draft: false
 ---
 
