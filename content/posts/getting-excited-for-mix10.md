@@ -1,10 +1,8 @@
-+++
-title = "Getting Excited for MIX10"
-date = "2010-02-12T00:21:00Z"
-categories = ["Code"]
-tags = ["Microsoft", "MIX", "Windows Phone"]
-draft = false
-+++
+---
+title: Getting Excited for MIX10
+date: 2010-02-12T00:21:00Z
+draft: true
+---
 
 [MIX](http://live.visitmix.com/) is by far my favorite Microsoft event, and not just because it's in [Las Vegas](http://www.bing.com/search?q=las+vegas). It's the mix of designers and developers, about learning cool stuff and just getting the creative juices flowing. Whether I'm there in person or just watching the keynote via the web it has a rejuvenating effect on me and gets me excited to make cool stuff.
 

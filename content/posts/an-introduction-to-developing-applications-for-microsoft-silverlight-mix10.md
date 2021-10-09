@@ -1,10 +1,8 @@
-+++
-title = "An Introduction to Developing Applications for Microsoft Silverlight @ MIX10"
-date = "2010-03-15T23:43:00Z"
-categories = ["Code"]
-tags = ["Microsoft", "MIX", "Silverlight"]
-draft = false
-+++
+---
+title: 'An Introduction to Developing Applications for Microsoft Silverlight @ MIX10'
+date: '2010-03-15T23:43:00Z'
+draft: true
+---
 
 A quick heads up for anyone that saw my upcoming talk at MIX10. I'm super excited (why do normal excited when you can be *super* excited!) to show everyone the basics of Silverlight so people can begin creating rockstar web and Windows Phone applications. Speaking of the basics I want to share for anyone that did a Bing search wondering who this Shawn Oster fellow is and what his talk is really about.
 

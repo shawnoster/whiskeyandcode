@@ -1,10 +1,8 @@
-+++
-title = "Running a .NET 2.0 App from a Network Share"
-date = "2007-07-07T09:23:00Z"
-categories = ["Code"]
-tags = [".NET"]
-draft = false
-+++
+---
+title: Running a .NET 2.0 App from a Network Share
+date: 2007-07-07T09:23:00Z
+draft: true
+---
 
 Just ran into an issue trying to run a simple .NET 2.0 file writing command-line app across a network share. No matter how much beating we couldn't get it to run until we ran across this little batch file in the comments on the .NET Security Blog post, [Using CasPol to Fully Trust a Share](http://blogs.msdn.com/shawnfa/archive/2004/12/30/344554.aspx):
 

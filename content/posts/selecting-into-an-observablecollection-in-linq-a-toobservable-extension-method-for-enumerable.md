@@ -1,10 +1,8 @@
-+++
-title = "Selecting into an ObservableCollection in LINQ: a ToObservable() extension method for Enumerable"
-date = "2012-02-09T21:04:55Z"
-categories = ["Code"]
-tags = ["Microsoft", "C#"]
-draft = false
-+++
+---
+title: "Selecting into an ObservableCollection in LINQ: a ToObservable() extension method for Enumerable"
+date: 2012-02-09T21:04:55Z
+draft: true
+---
 
 I love me to some LINQ, especially some LINQ to XML (otherwise known as XLinq) for parsing meaty XML files into objects. Anywhere there is XML parsing going on in my app you'll see code similar to this:
 

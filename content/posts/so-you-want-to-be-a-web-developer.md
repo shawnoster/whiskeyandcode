@@ -1,10 +1,8 @@
-+++
-title = "So You Want To Be a Web Developer"
-date = "2008-04-03T13:45:00Z"
-categories = ["Code"]
-tags = ["web"]
-draft = false
-+++
+---
+title: So You Want To Be a Web Developer
+date: 2008-04-03T13:45:00Z
+draft: true
+---
 
 I just had a friend at work ask that most innocuous of questions, "So, what should I learn if I want to be web developer?" which led us into a pretty good discussion about all things web related and to give him (Hi Nat!) a place to reference my ramblings I thought I'd jot down what I suggested.
 

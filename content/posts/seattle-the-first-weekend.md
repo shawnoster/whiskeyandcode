@@ -1,10 +1,8 @@
-+++
-title = "Seattle: The First Weekend"
-date = "2008-08-11T15:14:37Z"
-categories = ["Whiskey"]
-tags = ["Seattle", "Belltown"]
-draft = false
-+++
+---
+title: "Seattle: The First Weekend"
+date: 2008-08-11T15:14:37Z
+draft: true
+---
 
 My first weekend living in Seattle is drawing to a close and as the sun very, very slowly sets I figured I'd give a wee status report.
 

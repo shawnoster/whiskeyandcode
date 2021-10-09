@@ -1,10 +1,8 @@
-+++
-title = "A Simple Delphi rakefile"
-date = "2007-08-16T12:15:00Z"
-categories = ["Code"]
-tags = ["Delphi", "Ruby", "CI/CD"]
-draft = false
-+++
+---
+title: A Simple Delphi rakefile
+date: '2007-08-16T12:15:00Z'
+draft: true
+---
 
 Building projects has always been a pain in the arse. You want it to be simple, fast and easily reproducible, all of which are tenets of good continuous integration. When it comes to building a Delphi project I've tried a whole slew of things from batch files to the Ant-based Want to very slick IDE's like Automated Build Studio and FinalBuilder. I keep coming back to simple DOS-based apps though because in my ideal world a user should be able to do a clean checkout of your code and then be able to build.
 

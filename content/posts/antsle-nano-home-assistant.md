@@ -1,10 +1,10 @@
-+++
-title = "Running Home Assistant on an Antsle Nano"
-date = "2021-05-11"
+---
+title: Running Home Assistant on an Antsle Nano"
+date: "2021-05-11"
 categories = ["Code"]
 tags = ["Antsle", "Home Assistant", "InfluxDB", "Grafana"]
-draft = false
-+++
+draft: true
+---
 
 A brief overview of my [Home Assistant](https://www.home-assistant.io/) setup.
 

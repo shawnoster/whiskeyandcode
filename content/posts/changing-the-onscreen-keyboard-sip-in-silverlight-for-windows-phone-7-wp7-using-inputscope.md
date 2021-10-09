@@ -1,10 +1,10 @@
-+++
-title = "Changing the Onscreen Keyboard (SIP) in Silverlight for Windows Phone 7 (WP7) using InputScope"
-date = "2010-03-27T00:23:00Z"
+---
+title: Changing the Onscreen Keyboard (SIP) in Silverlight for Windows Phone 7 (WP7) using InputScope"
+date: "2010-03-27T00:23:00Z"
 categories = ["Code"]
 tags = ["Microsoft", "Windows Phone"]
-draft = false
-+++
+draft: true
+---
 
 Given that the main way users enter text in your Windows Phone 7 Series application is via a tiny onscreen keyboard (a &ldquo;Software Input Panel&rdquo; or SIP) it's in everyone's best interest to make sure the right keys are available to the user when they need them.
 

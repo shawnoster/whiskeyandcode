@@ -1,11 +1,9 @@
-+++
-title = "Fleek.co and Hugo Extended"
-description = "Getting Hugo extended working with Fleek.co hosting"
-date = "2021-04-25"
-categories = ["Code"]
-tags = ["Home Automation", "IPFS", "Hugo", "Fleek.co", "Docker"]
-draft = false
-+++
+---
+title: Fleek.co and Hugo Extended
+description: Getting Hugo extended working with Fleek.co hosting
+date: 2021-04-25
+draft: true
+---
 
 I've been exploring distributed low-level systems, such as transport protocols, packet-level encryption, and immutability in a decentralized system (blockchain). Part of that is rebooting my blog and hosting it via [Fleek](https://fleek.co/) over the [IPFS](https://ipfs.io/) protocol.
 

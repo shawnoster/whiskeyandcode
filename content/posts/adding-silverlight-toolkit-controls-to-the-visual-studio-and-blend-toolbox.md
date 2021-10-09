@@ -1,10 +1,8 @@
-+++
-title = "Adding Silverlight Toolkit Controls to the Visual Studio and Blend Toolbox"
-date = "2009-02-04T22:30:00Z"
-categories = ["Code"]
-tags = ["Silverlight", "Visual Studio"]
-draft = false
-+++
+---
+title: Adding Silverlight Toolkit Controls to the Visual Studio and Blend Toolbox
+date: 2009-02-04T22:30:00Z
+draft: true
+---
 
 Now that title is a mouth-full. I've seen a few questions in the [Silverlight.net forums](http://silverlight.net/forums/35.aspx) asking how to get the [Silverlight Toolkit](http://www.codeplex.com/Silverlight) controls into the toolbox/asset library of Visual Studio 2008 and/or [Expression Blend 2](http://www.microsoft.com/expression/products/Overview.aspx?key=blend). There are a bunch of great posts scattered among the tubes on how to do this but I wanted to explain both Visual Studio 2008 and Blend 2 in one post. Plus it'll segue nicely into an upcoming post :)
 

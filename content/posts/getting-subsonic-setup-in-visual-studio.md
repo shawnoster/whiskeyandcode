@@ -1,10 +1,8 @@
-+++
-title = "Getting SubSonic Setup in Visual Studio"
-date = "2008-02-04T08:44:00Z"
-categories = ["Code"]
-tags = ["C#", "SubSonic"]
-draft = false
-+++
+---
+title: Getting SubSonic Setup in Visual Studio
+date: 2008-02-04T08:44:00Z
+draft: true
+---
 
 I'm a big fan of [SubSonic](http://subsonicproject.com/default.aspx), a ORM/DAL generator / utility belt of goodness. Like any tool there is a little configuration and setup you need to do to get everything rolling and while Rob Conery [has some great podcasts](http://subsonicproject.com/view/using-the-command-line-tool.aspx) on doing just this, sometimes you just need to remember that one little option vs. wanting to watch a 10 minute podcast again, regardless of how melodic and sweet are the dulcet tones of Mr. Conery's voice.
 

@@ -1,10 +1,8 @@
-+++
-title = ".NET Framework Source Code Being Released"
-date = "2007-10-04T07:51:00Z"
-categories = ["Code"]
-tags = [".NET"]
-draft = false
-+++
+---
+title: .NET Framework Source Code Being Released
+date: 2007-10-04T07:51:00Z
+draft: true
+---
 
 One of the things I always loved about working with Delphi was the fact that the entire VCL framework's source code was shipped with the product. Being able to look at and debug into the existing framework code is an invaluable tool for both learning how things are done as well as debugging tricky issues.
 

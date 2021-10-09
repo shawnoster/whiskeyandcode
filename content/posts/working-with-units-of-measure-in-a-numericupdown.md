@@ -1,10 +1,8 @@
-+++
-title = "Working with Units of Measure in a NumericUpDown"
-date = "2008-12-11T12:10:00Z"
-categories = ["Code"]
-tags = ["Silverlight", "Microsoft"]
-draft = false
-+++
+---
+title: Working with Units of Measure in a NumericUpDown
+date: 2008-12-11T12:10:00Z
+draft: true
+---
 
 One of the great controls released with the [Silverlight Toolkit](http://www.codeplex.com/Silverlight) is the NumericUpDown. Sure it may seem like just a basic textbox that allows user input with the added glory of a spinner that makes it easy to nudge values up or down with a click, which in and of itself is a great benefit, but there is also some lesser known plumbing that allows users to easily extend this control to provide some great user experiences.
 

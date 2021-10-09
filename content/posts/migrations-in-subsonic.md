@@ -1,10 +1,8 @@
-+++
-title = "Migrations In SubSonic"
-date = "2008-04-13T10:13:00Z"
-categories = ["Code"]
-tags = ["C#", "SubSonic", "Open Source"]
-draft = false
-+++
+---
+title: Migrations In SubSonic
+date: 2008-04-13T10:13:00Z
+draft: true
+---
 
 
 A few weeks ago [Rob Conery](http://blog.wekeroad.com/) foolishly tapped me to help get migrations in SubSonic up to snuff and I've been working on them ever since trying to sneak them into the latest [SubSonic beta](http://blog.wekeroad.com/blog/subsonic-2-1-beta-3-is-ready/). I've changed the way they're implemented slightly from when Rob first talked about them so here's a quick re-introduction to migrations.

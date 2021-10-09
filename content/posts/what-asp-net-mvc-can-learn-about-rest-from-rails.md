@@ -1,10 +1,8 @@
-+++
-title = "What ASP.NET MVC Can Learn About REST from Rails"
-date = "2008-02-20T08:47:00Z"
-categories = ["Code"]
-tags = ["ASP.NET", "MVC", "Ruby", "Rails"]
-draft = false
-+++
+---
+title: What ASP.NET MVC Can Learn About REST from Rails
+date: 2008-02-20T08:47:00Z
+draft: false
+---
 
 I'm starting to see more ASP.NET MVC samples and questions come out and I'm realizing that a large portion of the ASP.NET crowd doesn't even realize that a huge reason for the MVC movement is because of the Ruby on Rails framework. A lot of new .NET MVC developers are struggling with architectural questions that have already been debated and answered in the Rails community, which makes Rails a great resource for when you're first starting out or you're curious how to handle certain situations, like nested resources or how to structure your controllers.
 

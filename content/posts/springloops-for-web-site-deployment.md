@@ -1,10 +1,8 @@
-+++
-title = "Springloops for Web Site Deployment"
-date = "2008-04-24T09:30:21Z"
-categories = ["Code"]
-tags = ["CI/CD"]
-draft = false
-+++
+---
+title: Springloops for Web Site Deployment
+date: 2008-04-24T09:30:21Z
+draft: true
+---
 
 One of my clients recently switched hosting providers which threw me for a loop because I was doing all their web site deployment using Subversion. I'd make a change on my development box, commit it, ssh over to their host and issue a matching svn update. It worked great and gave me a big warm fuzzy.
 

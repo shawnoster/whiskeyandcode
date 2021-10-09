@@ -1,10 +1,7 @@
 ---
-title: "Tips for writing Windows Phone applications end-to-end"
+title: Tips for Writing Windows Phone Applications End-to-End
 date: 2012-02-06T01:35:08Z
 categories:
-    - Code
-tags: 
-    - Microsoft
     - Windows Phone
 draft: false
 ---

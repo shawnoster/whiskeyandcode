@@ -1,10 +1,8 @@
-+++
-title = "User Interface Is As Important As Code"
-date = "2007-03-07"
-categories = ["Code"]
-tags = ["UX", "design"]
-draft = false
-+++
+---
+title: User Interface Is As Important As Code
+date: 2007-03-07
+draft: true
+---
 
 Ever hear the phrase, "lipstick on a pig"? It applies to a vain attempt to make something ugly look pretty, as in "putting a fresh coat of paint on that water-damaged, termite-eaten, water leaking house is like putting lipstick on a pig."
 

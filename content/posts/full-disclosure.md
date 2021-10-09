@@ -1,10 +1,8 @@
-+++
-title = "Full Disclosure"
-date = "2008-08-08T12:49:00Z"
-categories = ["Whiskey"]
-tags = ["Microsoft", "Seattle"]
-draft = false
-+++
+---
+title: Full Disclosure
+date: 2008-08-08T12:49:00Z
+draft: true
+---
 
 It's all about the snappy opening line, watch any classic movie from the 40's and you'll realize the importance of the opening line. If you need some evidence check out '[His Girl Friday](http://www.imdb.com/title/tt0032599/)', at least the first 20 minutes, for some of what I consider some of the back & forth dialog around. Of course the classic for lines from the 40's is arguably '[Casablanca](http://www.imdb.com/title/tt0034583/)' and if you've never seen it you owe it to yourself to watch it with a bottle and some friends, you'll be amazed at how many lines come from just that one movie.
 

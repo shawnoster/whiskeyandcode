@@ -1,10 +1,10 @@
-+++
-title = "Welcome CustomMessageBox to the Windows Phone Toolkit"
-date = "2012-10-01T02:37:00Z"
-categories = ["Code"]
-tags = ["Microsoft", "Windows Phone"]
-draft = false
-+++
+---
+title: Welcome CustomMessageBox to the Windows Phone Toolkit
+date: 2012-10-01T02:37:00Z
+categories:
+    - Windows Phone
+draft: true
+---
 
 A big welcome to CustomMessageBox, a new control to the toolkit which is exactly what it sounds like, a customizable, Windows Phone-UI compliant, easy to use message box offering the following features:
 

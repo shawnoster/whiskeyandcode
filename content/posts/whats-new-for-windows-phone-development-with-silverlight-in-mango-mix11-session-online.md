@@ -1,10 +1,10 @@
-+++
-title = "What’s New for Windows Phone Development with Silverlight (in Mango) - MIX11 Session Online"
-date = "2011-04-20T00:25:46Z"
-categories = ["Code"]
-tags = ["Microsoft", "Silverlight", "Windows Phone", "MIX"]
-draft = false
-+++
+---
+title: What’s New for Windows Phone Development with Silverlight (in Mango) - MIX11 Session Online
+date: 2011-04-20T00:25:46Z
+categories:
+    - Windows Phone
+draft: true
+---
 
 My talk from MIX11 has made its way online and for those that couldn't attend (or those that were still recovering from the great attendee party and discovered that 9am is way too early to attempt to move) a video of my session is online over only channel9 available for streaming or downloading.
 

@@ -1,10 +1,10 @@
-+++
-title = "Improving ListBox Performance in Silverlight for Windows Phone 7: Data Virtualization"
-date = "2010-08-17T10:13:57Z"
-categories = ["Code"]
-tags = ["Microsoft", "Windows Phone", "Silverlight"]
-draft = false
-+++
+---
+title: "Improving ListBox Performance in Silverlight for Windows Phone 7: Data Virtualization"
+date: 2010-08-17T10:13:57Z
+categories:
+    - Windows Phone
+draft: true
+---
 
 There is a lot of data out there; on the internet, tucked away in databases, sitting patiently on the other side of a REST web service just waiting to pounce on your unsuspecting Windows Phone application that just wants to display a little slice of it all so people can read it, touch it and generally make sense of it. The problem is there is a lot of it, so what is a poor unsuspecting application to do, especially when it's been crammed into a form factor that doesn't allow ever expanding memory upgrades?
 
@@ -52,7 +52,7 @@ public class VirtualSongList : IList<string>, IList
         {
             // here is where the magic happens, create/load your data on the fly.
             Debug.WriteLine("Requsted item " + index.ToString());
-            return new Song() { Title = "Song " + index.ToString() };
+            return new Song() { title: Song " + index.ToString() };
         }
         set
         {

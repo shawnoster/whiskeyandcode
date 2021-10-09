@@ -1,10 +1,10 @@
-+++
-title = "Unable to Clear East Asian Text from a TextBox in Windows Phone (or always clear your TextBox focus)"
-date = "2012-04-24T01:30:29Z"
-categories = ["Code"]
-tags = ["Microsoft", "Windows Phone"]
-draft = false
-+++
+---
+title: Unable to Clear East Asian Text from a TextBox in Windows Phone (or always clear your TextBox focus)
+date: 2012-04-24T01:30:29Z
+categories:
+    - Windows Phone
+draft: true
+---
 
 We've received several reports of apps that don't clear out their text even though the app author is setting the Text property to an empty string. I did a little poking and it's due to a combination of the application bar and IME. The onscreen keyboard (SIP) enters a composition mode when working with East Asian languages that allows for quickly entering complex words and phrases and it ends once the SIP is dismissed. If the text is modified programmatically while it's in this mode it'll behave unpredictably, the most obvious issue being that it doesn't update to reflect the text you've set in your code behind.
 

@@ -1,10 +1,8 @@
-+++
-title = "Using Hugo (a static site generator) on a Daily Basis"
-date = "2021-07-12"
-categories = ["Code"]
-tags = ["Hugo"]
-draft = false
-+++
+---
+title: Using Hugo (a static site generator) on a Daily Basis
+date: 2021-07-12
+draft: false
+---
 
 ## Summary
 

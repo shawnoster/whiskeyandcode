@@ -1,10 +1,10 @@
-+++
-title = "Using RestSharp with AgFx in your Windows Phone app"
-date = "2012-02-15T02:16:17Z"
-categories = ["Code"]
-tags = ["Microsoft", "Windows Phone", "REST", "RestSharp", "AgFx"]
-draft = false
-+++
+---
+title: Using RestSharp with AgFx in your Windows Phone app
+date: 2012-02-15T02:16:17Z
+categories:
+    - Windows Phone
+draft: true
+---
 
 I'm using the excellent REST library [RestSharp](http://restsharp.org) for all my REST and OAuth calls. I'm also using the amazing data caching framework [AgFx](http://agfx.codeplex.com/) written by Shawn Burke which handles caching your web requests, something that goes from a nice to have to critical when writing high performance Windows Phone apps.
 

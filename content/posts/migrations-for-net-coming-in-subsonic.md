@@ -1,10 +1,8 @@
-+++
-title = "Migrations for .NET coming in SubSonic"
-date = "2007-10-04T19:40:00Z"
-categories = ["Code"]
-tags = [".NET", "SubSonic"]
-draft = false
-+++
+---
+title: Migrations for .NET coming in SubSonic
+date: 2007-10-04T19:40:00Z
+draft: true
+---
 
 I'm being lazy and just posting a link because I think this feature is that cool:
 
