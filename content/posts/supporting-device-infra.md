@@ -1,7 +1,7 @@
 ---
 title: Supporting Common Device Code, Infra, and Process
 date: "2021-10-09"
-draft: false
+draft: true
 ---
 
 # Supporting Common Device Code, Infra, and Process
