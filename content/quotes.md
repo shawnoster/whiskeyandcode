@@ -1,5 +1,5 @@
 ---
-modified: 2021-11-14T16:34:13-08:00
+modified: 2021-11-14T16:36:15-08:00
 ---
 
 # Quotes
@@ -29,4 +29,4 @@ _"Someone brought a piñata, then someone lit it on fire. Then Jeremy used a mac
 
 _The gingerbread man is the son to Lord licorice_
 
-_”I always have hard tomorrows.“_ - Jessica, 2021
+_”I always have a hard tomorrow.“_ - Jessica, 2021
