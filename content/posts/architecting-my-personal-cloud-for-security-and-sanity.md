@@ -7,7 +7,7 @@ tags:
     - code
     - delphi
 draft: false
-lastmod: '2021-12-05T19:44:47.464Z'
+lastmod: '2021-12-05T19:49:02.904Z'
 ---
 
 # Architect your Personal Cloud like a Corporation
@@ -30,7 +30,7 @@ Rinse and repeat for environments.
 
 ### Authorize Machine
 
-The first time you sign into 1Password on a new machine, whether via the desktop, browser extension, or CLI, you much provide both your password and secret key. This authorizes the machine
+The first time you sign into 1Password on a new machine, whether via the desktop, browser extension, or CLI, you provide both your password and secret key. This authorizes the machine with 1Password. Subsequent logins will only require the main password.
 
 Same command for both Windows and Ubuntu:
 
