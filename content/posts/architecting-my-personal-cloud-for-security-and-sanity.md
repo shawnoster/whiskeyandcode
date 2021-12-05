@@ -2,12 +2,12 @@
 title: Architect your Personal Cloud like a Corporation
 date: '2021-12-05'
 categories:
-    - Delphi
+    - Code
 tags:
-    - code
-    - delphi
+    - cli
+    - security
 draft: false
-lastmod: '2021-12-05T19:49:02.904Z'
+lastmod: '2021-12-05T19:58:51.478Z'
 ---
 
 # Architect your Personal Cloud like a Corporation
@@ -44,7 +44,7 @@ op signin my.1password.com shawn.oster@gmail.com
 
 For this example I added my Home Assistant PAT as an API Credential to 1Password.
 
-![1Password API Credential](./images/hass_rest.png)
+![1Password API Credential](/images/hass_rest.png)
 
 ### Retrieve a Secure Value
 
