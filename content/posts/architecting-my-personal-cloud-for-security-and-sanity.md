@@ -74,6 +74,27 @@ One of the most common uses for secure values, at least for me at home, is setti
 
 #### Securing a session
 
+**PowerShell**
+
+```powershell
+# secure-env.ps1
+#
+# "Secures" a session by writing sensitive keys as session environment
+# variables. Not exactly secure but it does reduce surface area and ensures
+# the latest values are always being used
+
+# sign-in to 1Password
+Invoke-Expression $(op signin my);
+
+echo "Setting Home Assistant REST PAT - HASS_REST..."
+$env:HASS_REST=$(op get item HASS_REST --fields credential)
+
+# Gladios says hello
+echo "Unbelievable. You, [subject name here] must be the pride of [subject hometown here.]"
+```
+
+**Ubuntu**
+
 ```bash
 #!/bin/sh
 
@@ -99,7 +120,7 @@ echo "Unbelievable. You, [subject name here] must be the pride of [subject homet
 Being able to run the following command was the motivation for this blog post, might as well show it off :) This makes a HTTP POST request to my Home Assistant REST API, secured with a PAT, to turn my office's ceiling light on/off from the command line. I suppose I could have gotten up and just flipped a switch, but where's the fun in that?
 
 ```bash
-# sing in and load secure tokens
+# sign in, load secure tokens
 ./secure-env.sh
 
 # use said tokens ($HASS_REST)
