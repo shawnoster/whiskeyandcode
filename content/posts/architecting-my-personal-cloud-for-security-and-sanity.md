@@ -86,11 +86,12 @@ One of the most common uses for secure values, at least for me at home, is setti
 # sign-in to 1Password
 Invoke-Expression $(op signin my);
 
-echo "Setting Home Assistant REST PAT - HASS_REST..."
+# set HASS_REST env variable
+Write-Output "Setting Home Assistant REST PAT - HASS_REST..."
 $env:HASS_REST=$(op get item HASS_REST --fields credential)
 
 # Gladios says hello
-echo "Unbelievable. You, [subject name here] must be the pride of [subject hometown here.]"
+Write-Output "Unbelievable. You, [subject name here] must be the pride of [subject hometown here.]"
 ```
 
 **Ubuntu**
@@ -119,16 +120,66 @@ echo "Unbelievable. You, [subject name here] must be the pride of [subject homet
 
 Being able to run the following command was the motivation for this blog post, might as well show it off :) This makes a HTTP POST request to my Home Assistant REST API, secured with a PAT, to turn my office's ceiling light on/off from the command line. I suppose I could have gotten up and just flipped a switch, but where's the fun in that?
 
+**PowerShell**
+
+```powershell
+# sign in, load secure tokens
+./secure-env.ps1
+
+# use said tokens ($HASS_REST)
+http --json `
+     POST http://monocularjack.duckdns.org:8123/api/services/light/turn_on `
+     'Content-Type:application/json' `
+     "Authorization: Bearer $env:HASS_REST" `
+     'entity_id=light.hue_bulb_office'
+```
+
+**Ubuntu**
+
 ```bash
 # sign in, load secure tokens
 ./secure-env.sh
 
 # use said tokens ($HASS_REST)
 http --json \
-     POST http://192.168.1.116:8123/api/services/light/turn_on \
+     POST http://monocularjack.duckdns.org:8123/api/services/light/turn_on \
      'Content-Type:application/json' \
      "Authorization: Bearer $HASS_REST" \
      'entity_id=light.hue_bulb_office'
+ ```
+ 
+ **Output**
+ 
+ ```powershell
+ HTTP/1.1 200 OK
+Content-Encoding: deflate
+Content-Length: 277
+Content-Type: application/json
+Date: Mon, 06 Dec 2021 22:17:06 GMT
+Server: Python/3.9 aiohttp/3.7.4.post0
+
+[
+    {
+        "attributes": {
+            "friendly_name": "Office Ceiling",
+            "max_mireds": 454,
+            "min_mireds": 153,
+            "supported_color_modes": [
+                "color_temp"
+            ],
+            "supported_features": 43
+        },
+        "context": {
+            "id": "1b2f8d40c8cdcaafe60e1eec4ea13d19",
+            "parent_id": null,
+            "user_id": "9cb3b341377e4c759007eb27c2ad5dc2"
+        },
+        "entity_id": "light.hue_bulb_office",
+        "last_changed": "2021-12-06T22:17:06.319723+00:00",
+        "last_updated": "2021-12-06T22:17:06.319723+00:00",
+        "state": "off"
+    }
+]
  ```
 
 ## Conclusion
