@@ -99,6 +99,10 @@ echo "Unbelievable. You, [subject name here] must be the pride of [subject homet
 Being able to run the following command was the motivation for this blog post, might as well show it off :) This makes a HTTP POST request to my Home Assistant REST API, secured with a PAT, to turn my office's ceiling light on/off from the command line. I suppose I could have gotten up and just flipped a switch, but where's the fun in that?
 
 ```bash
+# sing in and load secure tokens
+./secure-env.sh
+
+# use said tokens ($HASS_REST)
 http --json \
      POST http://192.168.1.116:8123/api/services/light/turn_on \
      'Content-Type:application/json' \
