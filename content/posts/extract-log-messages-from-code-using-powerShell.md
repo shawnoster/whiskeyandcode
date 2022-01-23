@@ -5,14 +5,14 @@ tags:
     - code
     - csharp
 draft: false
-lastmod: '2022-01-23T22:09:52.024Z'
+lastmod: '2022-01-23T22:23:22.580Z'
 ---
 
 # Extract ILogger Messages from Code using PowerShell
 
-A co-worker asked how to extract log message from a code message last week and while I normally would do it using `grep` I thought I'd try PowerShell.
+A co-worker asked how to extract log message from code last week and while I would normally use `grep` I thought I'd improve my PowerShell skills since we use it for so many of our internal scripts at work.
 
-Our code uses a standard C# ILogger pattern, with a `LogXxx()` method to Exception, Information, and Warning log events, with a GUID for unique code look-up, and a hopefully helpful log message.
+Our code uses the C# [ILogger](https://docs.microsoft.com/en-us/dotnet/api/microsoft.extensions.logging.ilogger?view=dotnet-plat-ext-6.0) pattern, with a `LogXxx()` method to Exception, Information, and Warning log events, with a GUID for unique code look-up, and a hopefully helpful log message.
 
 ## Get-ChildItems and Select-String
 
