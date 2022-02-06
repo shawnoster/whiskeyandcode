@@ -1,5 +1,5 @@
 ---
-modified: 2021-12-31T19:20:03-08:00
+modified: 2022-02-05T20:34:22-08:00
 ---
 
 # Quotes
@@ -32,3 +32,5 @@ _The gingerbread man is the son to Lord licorice_
 _”I always have a hard tomorrow.“_ - Jessica, 2021
 
 _”I love Belltown but I wouldn’t recommend it.”_ - Brooke- 2021.12.31
+
+_”I don’t anything that doesn’t have gunpowder.”_ - Shannon - 2022.02.05
