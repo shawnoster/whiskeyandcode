@@ -10,7 +10,7 @@ draft: false
 lastmod: '2022-04-09'
 ---
 
-> 4/8/2022 - Since writing this a new version of the 1Password CLI came out (2.0) that handles setting environment variables in a much slicker way. The below steps will still work but I suggest checking out the official "[Load secrets into the environment](https://developer.1password.com/docs/cli/secrets-environment-variables)" [1Password CLI](https://developer.1password.com/docs/cli) docs first.
+> 2022.04.08 -  - Since writing this a new version of the 1Password CLI came out (2.0) that handles setting environment variables in a much slicker way. The below steps will still work but I suggest checking out the official "[Load secrets into the environment](https://developer.1password.com/docs/cli/secrets-environment-variables)" [1Password CLI](https://developer.1password.com/docs/cli) docs first.
 >
 > I also fixed a bunch of spelling mistakes and typos.
 
@@ -32,7 +32,7 @@ Since 1Password is my source of truth where all my secure information is stored 
 
 ### Install CLI tools - 1Password CLI, jq, httpie
 
-> Another reminder that [1Password CLI 2](https://developer.1password.com/docs/cli) now handles all of this for you!
+> 2022.04.10 - Another reminder that [1Password CLI 2](https://developer.1password.com/docs/cli) now handles all of this for you!
 
 1. [Install the 1Password CLI](https://support.1password.com/command-line-getting-started/)
 1. [Install jq](https://stedolan.github.io/jq/download/)
