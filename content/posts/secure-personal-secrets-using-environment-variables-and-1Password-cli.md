@@ -1,5 +1,5 @@
 ---
-title: Architect your Personal Cloud like a Corporation
+title: Secure Personal Secrets using Environment Variables and 1Password CLI
 date: '2021-12-05'
 categories:
     - Code
@@ -7,26 +7,40 @@ tags:
     - cli
     - security
 draft: false
-lastmod: '2021-12-05T19:58:51.478Z'
+lastmod: '2022-04-09'
 ---
 
-# Architect your Personal Cloud like a Corporation
+> 4/8/2022 - Since writing this a new version of the 1Password CLI came out (2.0) that handles setting environment variables in a much slicker way. The below steps will still work but I suggest checking out the official "[Load secrets into the environment](https://developer.1password.com/docs/cli/secrets-environment-variables)" [1Password CLI](https://developer.1password.com/docs/cli) docs first.
+>
+> I also fixed a bunch of spelling mistakes and typos.
 
-I spend a lot of time at work ensuring API keys and connection strings are stored in a single place and that it's easy to update them when they change. At home I give almost no thought to where I store personal access tokens, API keys, and ssh keys.
+# Secure Personal Secrets using Environment Variables and 1Password CLI
 
-I'd like to say I had a security epiphany and that's what set this whole thing off but mostly it's because I'm lazy and didn't want to set mundane things like environment variables multiple times.
+At work I spend a lot of time ensuring sensitive access credentials such as passwords, API keys, personal access tokens (PATs) and database connection strings are stored in a secure place that's easy to manage and consume by trusted people and systems. Part of that is never duplicating information, instead pulling it directly from a single, trusted source-of-truth.
+
+Personally I store all my sensitive passwords and keys in 1Password but I still copy/paste anything that's not a password into various environment variables and configuration files spread across multiple laptops and environments.
+
+I realized just how silly it was to secure my secrets only to expose them to anyone with access to my machines and how much time I wasted ensuring all my environments were configured correctly and up-to-date.
+
+## Automate 
+
+Taking a cue from my day job I decided to automate the whole thing in a way that made moving between environments easy and secure, that utilized tools I was already using.
+
+Since 1Password is my source of truth where all my secure information is stored I started there. 
 
 ## Setup and Configuration
 
 ### Install CLI tools - 1Password CLI, jq, httpie
 
-1Password is my source of truth where all my secure information is stored. `jq` is a CLI for quering and manipulating JSON, which comes in handy when dealing with REST responses. `httpie` is my preferred `curl` replacement. `jq` and `httpie` aren't strictly requied but they're such useful general tools, why not install them?
+> Another reminder that [1Password CLI 2](https://developer.1password.com/docs/cli) now handles all of this for you!
 
 1. [Install the 1Password CLI](https://support.1password.com/command-line-getting-started/)
 1. [Install jq](https://stedolan.github.io/jq/download/)
 1. [Install httpie](https://httpie.io/download)
 
-Rinse and repeat for environments.
+`jq` is a CLI for querying and manipulating JSON, which comes in handy when dealing with REST responses. 
+
+`httpie` is my preferred `curl` replacement. `jq` and `httpie` aren't strictly required but they're such useful general tools, why not install them?
 
 ### Authorize Machine
 
@@ -62,7 +76,7 @@ op get item HASS_REST | jq
 
 This fetches the entire record for `HASS_REST` as JSON and pipes it through jq to make it easier to read.
 
-There are various ways from here to extract just the needed value, including 1Password's bult-in mini query language:
+There are various ways from here to extract just the needed value, including 1Password's built-in mini query language:
 
 ```bash
 op get item HASS_REST --fields credential
