@@ -2,7 +2,7 @@
 title: About Shawn Oster
 date: '2022-04-10'
 draft: false
-lastmod: '2022-04-10']
+lastmod: '2022-04-10'
 ---
 
 # Hello, I'm Shawn Oster
