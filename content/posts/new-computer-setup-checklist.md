@@ -6,7 +6,7 @@ categories:
 tags:
   - setup
 draft: false
-lastmod: '2022-04-10']
+lastmod: '2022-04-10'
 ---
 
 # New Computer Setup Checklist
