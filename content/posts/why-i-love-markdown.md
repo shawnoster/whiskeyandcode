@@ -14,13 +14,17 @@ Welcome to a quick tour of Markdown, where it came from, why I love it, how to u
 
 ## What is Markdown?
 
-[Many sites][fireball] offer a much better overview of what Markdown is but the tl;dr is Markdown is a markup DSL designed to be human-readable that can also be rendered into semantically correct XHTML.
+The [official Daring Fireball site][fireball] offer a much better overview of what Markdown is but the tl;dr is Markdown is a markup domain-specific language (DSL) designed to be human-readable that can also be rendered into semantically correct XHTML.
 
 _Readability, however, is emphasized above all else. A Markdown-formatted document should be publishable as-is, as plain text, without looking like it’s been marked up with tags or formatting instructions._
 
 Due to its concise yet natural syntax and easy readability as plain-text it's become the defacto standard in most community forums (Reddit, StackOverflow), blogging and documentation platforms (Hugo, Jekyll, readthedocs.io), and of course every online wiki.
 
 All modern editors support it some form, from syntax highlighting, live previews, and [linting][vscode-lint].
+
+It is the **very first thing** people see in any Github-hosted project, in the form of a `README.md`. Almost all developer documentation that will ever be written will be done in Markdown, and if it's not it really, really should be. The entireity of Microsoft's documentation system is a series of Markdown files hosted on Github.
+
+It can be versioned, diff'd between versions, it's easy to update from anywhere, using everything from `vim` to `nano` to Visual Studio Code to Sublime to Notepad. If JSON is the language of APIS, and YAML the language of configuration, then Markdown is the language of documentation for developers.
 
 ## Why I 💗 Markdown
 
@@ -53,6 +57,16 @@ When a user can't predict when and where a feature will work they'll start doubt
 * layout the document knowing it'll be read in plain-text as much as rendered HTML  
 * write for the content, not the render. If you can't make sense of the text until it's been rendered then the problem is probably with the content structure
 
+### Using headings like book titles and chapters
+
+A common issue is mixing headings with bold text and swapping them back and forth willy nilly. In Markdown a single pound/hash symbole (`#`) is the same as an H1 in HTML, or the same as a book title. A double pound/hash (`##`) maps to an H2, which roughly maps to chapter titles in a book.
+
+This is a rough analogy but it's helpful when structuring content to be reminded that a book should only have a single title, or a web page should only have a single H1. All my semantic web developers probably have this drilled into their brain but instead of viewing a # or H1 as a big, bolded font it's better to view it as the main topic, book, title, blog post title, etc. and that according to semantic HTML a page should only ever have a single H1.
+
+* headings (H1, H2, H3, etc.) are often used to render a table of contents (TOC)
+* view heading levels as organization instead of formatting
+* it's okay to break the Highlander rule of there can only be one H1 when there is intent behind it
+
 ### When stuck take inspiration from others
 
 * it's common to know a layout isn't working well but not know why
@@ -71,11 +85,43 @@ For install steps it's especially important to keep everything concise and to ke
 
 ### Code
 
-Representing code in Markdown has so little overhead while offering so much value, that I often take it as a personal affront when not used.
+Representing code in Markdown has little overhead and helps so much when reading large articles that it's one of the first things I teach people.
 
 #### Code Blocks
 
-Use triple ticks to demarcate multi-line code blocks.
+Use triple ticks (```) to demarcate multi-line code blocks.
+
+**Raw**
+
+<p>
+```<br/>
+{<br/>
+    "userId": "1234-ABCD-9876-DCBA"<br/>
+}<br/>
+```<br/>
+</p>
+
+**Rendered**
+
+```
+{
+    "userId": "1234-ABCD-9876-DCBA"
+}
+```
+
+Tell Markdown what language to use for syntax highlighting by adding the language name after the tripple ticks, so for JSON it would be `` ```json ``.
+
+**Raw**
+
+<p>
+```json<br/>
+{<br/>
+    "userId": "1234-ABCD-9876-DCBA"<br/>
+}<br/>
+```<br/>
+</p>
+
+**Rendered**
 
 ```json
 {
@@ -83,17 +129,11 @@ Use triple ticks to demarcate multi-line code blocks.
 }
 ```
 
-Tell Markdown what language to use for syntax highlighting
-
-```powershell
-# Convert Date and Time To UTC Time
-$a = Get-Date
-$a.ToUniversalTime()
-```
-
 #### Inline Code References
 
-* code can be inline, such as _"class `Zuul` has a dependency on `GateKeeper`"_.
+Surround text with single ticks (`) to create an inline code reference.
+
+* code can be inline, such as "class `Zuul` has a dependency on `GateKeeper`".
 * even minimal syntax highlighting makes a huge difference
 
 ### General
