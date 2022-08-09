@@ -14,13 +14,17 @@ Welcome to a quick tour of Markdown, where it came from, why I love it, how to u
 
 ## What is Markdown?
 
-The [official Daring Fireball site][fireball] offer a much better overview of what Markdown is but the tl;dr is Markdown is a markup domain-specific language (DSL) designed to be human-readable that can also be rendered into semantically correct XHTML.
+The [official Daring Fireball site][fireball] offers a much better overview of what Markdown is but the _tl;dr_ is Markdown is a markup domain-specific language (DSL) designed to be human-readable that can also be rendered into semantically correct XHTML.
+
+The core tenet, ripped straight from Daring Fireball:
 
 _Readability, however, is emphasized above all else. A Markdown-formatted document should be publishable as-is, as plain text, without looking like it’s been marked up with tags or formatting instructions._
 
 Due to its concise yet natural syntax and easy readability as plain-text it's become the defacto standard in most community forums (Reddit, StackOverflow), blogging and documentation platforms (Hugo, Jekyll, readthedocs.io), and of course every online wiki.
 
 All modern editors support it some form, from syntax highlighting, live previews, and [linting][vscode-lint].
+
+## Why learning Markdown is important
 
 It is the **very first thing** people see in any Github-hosted project, in the form of a `README.md`. Almost all developer documentation that will ever be written will be done in Markdown, and if it's not it really, really should be. The entireity of Microsoft's documentation system is a series of Markdown files hosted on Github.
 
@@ -147,20 +151,17 @@ Tips that didn't play well with the other groups, but I think are important.
 * Think in terms of outline/TOC  
 * Use citation references for link-heavy documents
 * Don't worry about ordered list numbering
-  1. this
-  1. much better
-  1. works
 * Take the extra minute to do look up how to do something
 
 ## Useful Links
 
 Links to things mentioned or hinted.
 
-* [Daring Fireball - Markdown Reference][fireball]
+* [Daring Fireball - Markdown Reference][fireball] - the official site
 * [Daring Fireball - Dingus][dingus] - an online Markdown playground
-* [David Anson's Markdown Linter for VSCode][vscode-lint]
-* [Hugo Open-Source Static Site Generator][hugo]
-* [Jekyell Static Site Generator][jekyell]
+* [David Anson's Markdown Linter for VSCode][vscode-lint] - a great linter to help write better Markdown
+* [Hugo Open-Source Static Site Generator][hugo] - Markdown-based static site generator
+* [Jekyell Static Site Generator][jekyell] - another Markdown-based static site generator
 
 [fireball]: https://daringfireball.net/projects/markdown/ "Daring Fireball"
 [dingus]: https://daringfireball.net/projects/markdown/dingus "Dingus"
