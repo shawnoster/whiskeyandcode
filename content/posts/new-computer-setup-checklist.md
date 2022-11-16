@@ -47,6 +47,16 @@ Default Ubuntu, from a PowerShell terminal prompt:
 wsl --install
 ```
 
+## Winget Installs
+
+Tools installable via `winget`
+
+```powershell
+winget install JanDeDobbeleer.OhMyPosh -s winget
+winget install stedolan.jq
+winget install Git.Git
+```
+
 ## Configurations
 
 ### Git Configuration
