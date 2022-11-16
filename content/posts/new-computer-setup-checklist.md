@@ -66,6 +66,18 @@ winget install Git.Git
 git config --global init.defaultBranch main
 ```
 
+### Visual Studio Code
+
+#### Extensions
+
+- [GitHub Repositories](https://marketplace.visualstudio.com/items?itemName=GitHub.remotehub) - _Remotely browse and edit any GitHub repository_
+- [Rainbow CSV](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv) - _Highlight CSV and TSV files, Run SQL-like queries_
+- [Remote Repositories](https://marketplace.visualstudio.com/items?itemName=ms-vscode.remote-repositories) - _Remotely browse and edit git repositories_
+
+#### Themes
+
+- [Chandrian](https://marketplace.visualstudio.com/items?itemName=narenranjit.chandrian) - _a semantic syntax highlighting theme_
+
 ### Wox Configuration
 
 - Theme | BlurBlack
