@@ -20,6 +20,7 @@ Apps are listed in the order I prefer to install them, starting right up front w
 ### General Utilities
 
 - [1Password](https://1password.com/downloads/windows/)
+- [1Password CLI](https://developer.1password.com/docs/cli/get-started)
 - [Everything](https://www.voidtools.com/) (needed for Wox)
 - [Python 3](https://www.python.org/downloads/) (needed for Wox)
 - [Wox Launcher](https://github.com/Wox-launcher/Wox/releases)
@@ -58,6 +59,12 @@ winget install Git.Git
 ```
 
 ## Configurations
+
+### Environment Variables
+
+```powershell
+SOURCE_ROOT=C:\Users\monoc\Dropbox\source
+```
 
 ### Git Configuration
 
@@ -128,13 +135,14 @@ op completion powershell | Out-String | Invoke-Expression
 
 # Aliases to common directories
 
-# R is for repo
-# Root directory for all source code
 # S is for Source
 # Root directory for all source code (make sure to set SOURCE_ROOT)
 function cds { Set-Location $env:SOURCE_ROOT }
 
-# Secure workspaces
-function secure-wonka { Set-Location (Join-Path $env:SOURCE_ROOT wonka); op run --account TLXY7GI2SVAXXDZOKD474SMSOQ --env-file=.\wonka\app.env -- code . }
+# 1Password-secured Accounts
+#
+# IDs are meaningless without the password and thus safe for plaintext
+function secure-groot { Set-Location (Join-Path $env:SOURCE_ROOT groot); op run --account my.1password.com --env-file=.\app.env -- code . }
+function secure-wonka { Set-Location (Join-Path $env:SOURCE_ROOT wonka); op run --account guild-education.1password.com --env-file=.\wonka\app.env -- code . }
 
 ```
