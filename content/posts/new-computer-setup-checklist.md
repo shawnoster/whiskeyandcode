@@ -6,7 +6,7 @@ categories:
 tags:
   - setup
 draft: false
-lastmod: '2022-04-10'
+lastmod: '2022-12-14'
 ---
 
 # New Computer Setup Checklist
@@ -123,9 +123,18 @@ Register-ArgumentCompleter -Native -CommandName dotnet -ScriptBlock {
         }
 }
 
+# Tab-completion for 1Password
+op completion powershell | Out-String | Invoke-Expression
+
 # Aliases to common directories
 
 # R is for repo
 # Root directory for all source code
-function cdr { Set-Location $env:HOMEPATH\Dropbox\source }
+# S is for Source
+# Root directory for all source code (make sure to set SOURCE_ROOT)
+function cds { Set-Location $env:SOURCE_ROOT }
+
+# Secure workspaces
+function secure-wonka { Set-Location (Join-Path $env:SOURCE_ROOT wonka); op run --account TLXY7GI2SVAXXDZOKD474SMSOQ --env-file=.\wonka\app.env -- code . }
+
 ```
