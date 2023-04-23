@@ -50,14 +50,14 @@ I'm doing this on a Windows box but the steps are basic enough that they should 
    ```docker
    FROM node:latest
 
-   ARG HUGO_VERSION=0.91.2
+   ARG HUGO_VERSION=0.111.3
 
    RUN apt-get update && apt-get install -y wget
 
    RUN wget https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_Linux-64bit.tar.gz && \
       tar -xf hugo_extended_${HUGO_VERSION}_Linux-64bit.tar.gz -C /usr/local/bin && \
       hugo version && rm hugo_extended_${HUGO_VERSION}_Linux-64bit.tar.gz
-      
+
    RUN wget -q -O - https://raw.githubusercontent.com/canha/golang-tools-install-script/master/goinstall.sh | bash
    ```
 
@@ -66,31 +66,31 @@ I'm doing this on a Windows box but the steps are basic enough that they should 
    **Ubuntu**
 
    ```bash
-   # there are needed to avoid using Docker buildkit, 
+   # there are needed to avoid using Docker buildkit,
    # which breaks many things
    export DOCKER_BUILDKIT=0
    export COMPOSE_DOCKER_CLI_BUILD=0
 
-   docker build . -t <your docker username>/hugo-extended-for-fleek:91.2
+   docker build . -t <your docker username>/hugo-extended-for-fleek:111.3
    ```
 
    **PowerShell**
 
    ```powershell
-   # there are needed to avoid using Docker buildkit, 
+   # there are needed to avoid using Docker buildkit,
    # which breaks many things
    $env:DOCKER_BUILDKIT=0
    $env:COMPOSE_DOCKER_CLI_BUILD=0
 
-   docker build . -t <your docker username>/hugo-extended-for-fleek:91.2
-   ```   
+   docker build . -t <your docker username>/hugo-extended-for-fleek:111.3
+   ```
 
 ### Publish Docker image
 
 1. Publish it to Docker Hub
 
    ```bash
-   docker push <your docker username>/hugo-extended-for-fleek:91.2
+   docker push <your docker username>/hugo-extended-for-fleek:111.3
    ```
 
 ### Use new Docker image
@@ -98,8 +98,8 @@ I'm doing this on a Windows box but the steps are basic enough that they should 
 1. Find your site under the Hosting section on [Fleek.co](https://fleek.co/)
 1. Go to Settings -> Build & Deploy -> Specify Docker Image
 1. Edit Settings
-1. Replace contents with `<your docker username>/hugo-extended-for-fleek:91.2`
-   - (or use mine: `shawnoster/hugo-extended-for-fleek:91.2`)
+1. Replace contents with `<your docker username>/hugo-extended-for-fleek:111.3`
+   - (or use mine: `shawnoster/hugo-extended-for-fleek:111.3`)
 1. Trigger a new deploy
 
 ![](/images/fleek-and-hugo-extended_2021-07-13-17-09-55.png)
