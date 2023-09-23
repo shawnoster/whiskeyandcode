@@ -1,6 +1,12 @@
 ---
 title: ASP.NET MVC Makes .NET Fun Again
 date: "2007-12-14"
+categories:
+  - Code
+tags:
+  - .net
+  - asp.
+  - microsoft
 draft: false
 ---
 

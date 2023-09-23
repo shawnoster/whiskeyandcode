@@ -2,7 +2,10 @@
 title: My Approach to Note Taking using Dendron
 date: "2021-09-12"
 categories:
-- Dendron
+  - Whiskey
+tags:
+  - dendron
+  - knowledge management
 draft: false
 ---
 
@@ -66,7 +69,7 @@ For each privacy level:
    - choose `remote` and `custom`
    - enter the clone URL of your repo
 
-Work vaults should be created inside your company, we use Azure Repos. 
+Work vaults should be created inside your company, we use Azure Repos.
 
 ### Step Four - Initialize Dendron, Add All Three Vaults
 
@@ -94,7 +97,7 @@ Follow the excellent guide.
 
 1. Install the [Dendron VSCode extensions](https://marketplace.visualstudio.com/items?itemName=dendron.dendron)
 
-1. 
+1.
 1. I picked my Dropbox root: `C:\Users\shawn\Dropbox\Dendron`
    - provides an extra layer of backup
    - follows my existing pattern of using Dropbox as my main user "root" for documents
@@ -104,5 +107,5 @@ Follow the excellent guide.
 
 ### Repos for Work Notes
 
-- 
+-
 

@@ -2,6 +2,9 @@
 title: "How to Love Markdown"
 date: "2022-08-09"
 categories:
+- Code
+tags:
+- Markdown
 - Best Practices
 draft: false
 ---
@@ -42,7 +45,7 @@ Most online rich-text/HTML editors inject massive amounts of garbage HTML, which
 
 ### Format w/ intent
 
-One of my coding principles is never to break your user's trust with UX inconsistencies. I picked this up from the Windows Phone Design Studio, which always stuck with me. Feature adoption drops significantly when a feature isn't consistent. 
+One of my coding principles is never to break your user's trust with UX inconsistencies. I picked this up from the Windows Phone Design Studio, which always stuck with me. Feature adoption drops significantly when a feature isn't consistent.
 
 When a user can't predict when and where a feature will work, they'll start doubting it (_"What did I do wrong? It worked over there"_) and then avoiding it (_"I don't know how to use that feature, and that makes me feel dumb, so I'll just avoid it"_).
 
@@ -58,7 +61,7 @@ When a user can't predict when and where a feature will work, they'll start doub
 * trust in the content, not the formatting
 * simplify the design instead of hacking around Markdown
 * there is rarely a need to mix HTML elements in w/ Markdown
-* layout the document knowing it'll be read in plain text as much as rendered HTML  
+* layout the document knowing it'll be read in plain text as much as rendered HTML
 * write for the content, not the render. If you can't make sense of the text until it's been rendered, then the problem is probably with the content structure
 
 ### Using headings like book titles and chapters
@@ -81,7 +84,7 @@ This is a rough analogy, but it's helpful when structuring content to be reminde
 
 Call-outs in this context are those eyeball-grabbing points of interest in the form of a bolded IMPORTANT, a block-quoted pro-tip, or a helpful hint. Used sparingly, they hold the line remarkably well. Add too many, though, and the message gets lost from the constant context switching. If everything is important, then suddenly nothing is important.
 
-If more than "some percentage" of a document is call-outs, the issue is often one of mixing tones or intent, such as shifting between exposition, extemporization, and detailed steps. The shift back and forth becomes a siren song for call-outs. 
+If more than "some percentage" of a document is call-outs, the issue is often one of mixing tones or intent, such as shifting between exposition, extemporization, and detailed steps. The shift back and forth becomes a siren song for call-outs.
 
 Depending on the intent, it's better to pick a single tone or group similar tones together.
 
@@ -148,7 +151,7 @@ Tips that didn't play well with the other groups, but I think are important.
 * Don't be scared of white-space
   * space between hash and text
   * CRLF between headers
-* Think in terms of outline/TOC  
+* Think in terms of outline/TOC
 * Use citation references for link-heavy documents
 * Don't worry about ordered list numbering
 * Take the extra minute to do look up how to do something

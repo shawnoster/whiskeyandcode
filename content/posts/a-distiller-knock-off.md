@@ -1,6 +1,10 @@
 ---
 title: A Distiller Knock-Off
 date: "2006-09-23"
+categories:
+  - Code
+tags:
+  - pdf
 draft: false
 ---
 

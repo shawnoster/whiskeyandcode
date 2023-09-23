@@ -1,11 +1,14 @@
 ---
 title: Extract Log Messages from Code using PowerShell
 date: '2022-01-23'
+categories:
+  - Code
 tags:
-    - code
-    - csharp
+  - markdown
+  - best practices
+tags:
+- csharp
 draft: false
-lastmod: '2022-01-23T22:23:22.580Z'
 ---
 
 # Extract ILogger Messages from Code using PowerShell
@@ -22,7 +25,7 @@ My quick and dirty version is meant to be run in the root folder you're gather l
 
 ```powershell
 # get a list of all C# files in the current directory and below
-# store the results in a variable to use later and to make the 
+# store the results in a variable to use later and to make the
 # code easier to read
 $CodeFiles = Get-ChildItem -Recurse -Path . -File -Filter "*.cs"
 

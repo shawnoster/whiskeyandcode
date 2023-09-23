@@ -2,7 +2,10 @@
 title: An Introduction to Developing Applications for Microsoft Silverlight at MIX10
 date: "2010-03-15"
 categories:
-- Silverlight
+  - Code
+tags:
+  - silverlight
+  - MIX
 draft: false
 ---
 

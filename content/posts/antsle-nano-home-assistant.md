@@ -1,6 +1,11 @@
 ---
 title: Running Home Assistant on an Antsle Nano
 date: "2021-05-11"
+categories:
+  - Whiskey
+tags:
+  - home assistant
+  - personal cloud
 draft: false
 ---
 

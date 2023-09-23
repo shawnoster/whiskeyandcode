@@ -2,7 +2,12 @@
 title: Adding Silverlight Toolkit Controls to the Visual Studio and Blend Toolbox
 date: "2009-02-04"
 categories:
-- Silverlight
+  - Code
+tags:
+  - silverlight
+  - ui
+  - visual studio
+  - blend
 draft: false
 ---
 
