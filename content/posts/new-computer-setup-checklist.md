@@ -57,6 +57,10 @@ Tools installable via `winget`
 winget install JanDeDobbeleer.OhMyPosh -s winget
 winget install stedolan.jq
 winget install Git.Git
+winget install 1password-cli
+winget install Microsoft.PowerToys
+winget install voidtools.Everything
+winget install Wox.Wox
 ```
 
 ## Configurations
