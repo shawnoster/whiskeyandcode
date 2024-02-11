@@ -5,7 +5,7 @@ date: '2021-04-25'
 categories:
    - Hugo
 draft: false
-lastmod: '2021-12-28T02:59:58.428Z'
+lastmod: '2024-01-11T02:59:58.428Z'
 ---
 
 # Fleek.co and Hugo Extended
@@ -50,7 +50,7 @@ I'm doing this on a Windows box but the steps are basic enough that they should 
    ```docker
    FROM node:latest
 
-   ARG HUGO_VERSION=0.111.3
+   ARG HUGO_VERSION=0.122.0
 
    RUN apt-get update && apt-get install -y wget
 
@@ -71,7 +71,7 @@ I'm doing this on a Windows box but the steps are basic enough that they should 
    export DOCKER_BUILDKIT=0
    export COMPOSE_DOCKER_CLI_BUILD=0
 
-   docker build . -t <your docker username>/hugo-extended-for-fleek:111.3
+   docker build . -t <your docker username>/hugo-extended-for-fleek:122.0
    ```
 
    **PowerShell**
@@ -82,7 +82,7 @@ I'm doing this on a Windows box but the steps are basic enough that they should 
    $env:DOCKER_BUILDKIT=0
    $env:COMPOSE_DOCKER_CLI_BUILD=0
 
-   docker build . -t <your docker username>/hugo-extended-for-fleek:111.3
+   docker build . -t <your docker username>/hugo-extended-for-fleek:122.0
    ```
 
 ### Publish Docker image
@@ -90,7 +90,7 @@ I'm doing this on a Windows box but the steps are basic enough that they should 
 1. Publish it to Docker Hub
 
    ```bash
-   docker push <your docker username>/hugo-extended-for-fleek:111.3
+   docker push <your docker username>/hugo-extended-for-fleek:122.0
    ```
 
 ### Use new Docker image
@@ -98,8 +98,8 @@ I'm doing this on a Windows box but the steps are basic enough that they should 
 1. Find your site under the Hosting section on [Fleek.co](https://fleek.co/)
 1. Go to Settings -> Build & Deploy -> Specify Docker Image
 1. Edit Settings
-1. Replace contents with `<your docker username>/hugo-extended-for-fleek:111.3`
-   - (or use mine: `shawnoster/hugo-extended-for-fleek:111.3`)
+1. Replace contents with `<your docker username>/hugo-extended-for-fleek:122.0`
+   - (or use mine: `shawnoster/hugo-extended-for-fleek:122.0`)
 1. Trigger a new deploy
 
 ![](/images/fleek-and-hugo-extended_2021-07-13-17-09-55.png)
