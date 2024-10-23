@@ -30,6 +30,11 @@ Apps are listed in the order I prefer to install them, starting right up front w
 - [Visual Studio Code](https://code.visualstudio.com/) (makes editing profile easier via `code $PROFILE`)
 - [Caskaydia Cove Nerd Font](https://www.nerdfonts.com/font-downloads) (needed for Oh My Posh)
 
+```
+# Nerd Fonts, call after installing Oh My Posh
+oh-my-posh font install
+```
+
 ### CLI
 
 - [Latest PowerShell](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.2)
@@ -55,12 +60,13 @@ Tools installable via `winget`
 
 ```powershell
 winget install JanDeDobbeleer.OhMyPosh -s winget
-winget install stedolan.jq
+winget install jqlang.jq
 winget install Git.Git
 winget install 1password-cli
 winget install Microsoft.PowerToys
 winget install voidtools.Everything
 winget install Wox.Wox
+winget install Volta.Volta
 ```
 
 ## Configurations
