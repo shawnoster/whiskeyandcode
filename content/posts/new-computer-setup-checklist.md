@@ -124,9 +124,39 @@ using namespace System.Management.Automation.Language
 # Full instructions on offical site: https://ohmyposh.dev/docs/
 oh-my-posh --init --shell pwsh --config $env:POSH_THEMES_PATH\space.omp.json | Invoke-Expression
 
-# Tab-completion for winget
 #
-# winget is available in newer versions of Windows
+# Tab-completion
+#
+
+# 1Password CLI
+op completion powershell | Out-String | Invoke-Expression
+
+# AWS CLI
+Register-ArgumentCompleter -Native -CommandName aws -ScriptBlock {
+    param($commandName, $wordToComplete, $cursorPosition)
+    $env:COMP_LINE = $wordToComplete
+    if ($env:COMP_LINE.Length -lt $cursorPosition) {
+        $env:COMP_LINE = $env:COMP_LINE + " "
+    }
+    $env:COMP_POINT = $cursorPosition
+    aws_completer.exe | ForEach-Object {
+        [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterValue', $_)
+    }
+    Remove-Item Env:\COMP_LINE
+    Remove-Item Env:\COMP_POINT
+}
+
+# dotnet CLI
+#
+# https://docs.microsoft.com/en-us/dotnet/core/tools/enable-tab-autocomplete
+Register-ArgumentCompleter -Native -CommandName dotnet -ScriptBlock {
+    param($commandName, $wordToComplete, $cursorPosition)
+    dotnet complete --position $cursorPosition "$wordToComplete" | ForEach-Object {
+        [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterValue', $_)
+    }
+}
+
+# winget
 Register-ArgumentCompleter -Native -CommandName winget -ScriptBlock {
     param($wordToComplete, $commandAst, $cursorPosition)
     [Console]::InputEncoding = [Console]::OutputEncoding = $OutputEncoding = [System.Text.Utf8Encoding]::new()
@@ -137,20 +167,7 @@ Register-ArgumentCompleter -Native -CommandName winget -ScriptBlock {
     }
 }
 
-# Tab-completion for dotnet CLI
-#
-# https://docs.microsoft.com/en-us/dotnet/core/tools/enable-tab-autocomplete
-Register-ArgumentCompleter -Native -CommandName dotnet -ScriptBlock {
-    param($commandName, $wordToComplete, $cursorPosition)
-    dotnet complete --position $cursorPosition "$wordToComplete" | ForEach-Object {
-        [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterValue', $_)
-    }
-}
-
-# Tab-completion for 1Password
-op completion powershell | Out-String | Invoke-Expression
-
-# Tab-completion for volta
+# volta
 #
 # generate with `volta completions powershell`
 Register-ArgumentCompleter -Native -CommandName 'volta' -ScriptBlock {
@@ -354,13 +371,71 @@ function ss { sonar-scanner.bat -D"sonar.projectKey=$(Get-Location | Split-Path 
 # 1Password-secured Accounts
 #
 # IDs are meaningless without the password and thus safe for plaintext
-function secure-env {
-    # Secure variables, pulled from 1Password
-    $env:SONAR_TOKEN = op read --account guild-education "op://Employee/SonarQube - Docker/token"
-    $env:JIRA_API_USER = op read --account guild-education "op://Employee/sa-jinx-cli/username"
-    $env:JIRA_API_KEY = op read --account guild-education "op://Employee/sa-jinx-cli/credential"
-    $env:JIRA_SERVER_URL = op read --account guild-education "op://Employee/sa-jinx-cli/server"
+function Set-SecureEnv {
+  # Secure variables, pulled from 1Password
+  $Env:GITHUB_TOKEN = op read --account guild-education "op://Employee/GitHub - Token - SQA local testing/credential"
+  $Env:JF_API_KEY = op read --account guild-education "op://Engineering Tools - Prod/Jellyfish API Token/credential"
+  $Env:JIRA_API_KEY = op read --account guild-education "op://Employee/sa-jinx-cli/credential"
+  $Env:JIRA_API_USER = op read --account guild-education "op://Employee/sa-jinx-cli/username"
+  $Env:JIRA_SERVER_URL = op read --account guild-education "op://Employee/sa-jinx-cli/server"
+  $Env:NPM_TOKEN = op read --account guild-education "op://Employee/npm - token - Local CLI/credential"
+  $Env:PACT_READONLY_PASSWORD = op read --account guild-education "op://Engineering Tools - Dev/Pact Broker - Readonly/password"
+  $Env:SONAR_TOKEN = op read --account guild-education "op://Employee/SonarQube - Docker/token"
 }
 function secure-groot { Set-Location (Join-Path $env:SOURCE_ROOT groot); op run --account my --env-file=.\app.env -- code . }
 function secure-wonka { Set-Location (Join-Path $env:SOURCE_ROOT wonka); op run --account guild-education --env-file=.\wonka\app.env -- code . }
+
+# AWS Profile Switcher
+function Switch-AWSProfile {
+  # Get all profiles
+  $profiles = aws configure list-profiles
+
+  if (-not $profiles) {
+    Write-Host "No AWS profiles found." -ForegroundColor Red
+    return
+  }
+
+  # Use fzf to select a profile
+  $selectedProfile = $profiles | fzf --prompt="Select AWS Profile > "
+
+  if ($selectedProfile) {
+    $env:AWS_PROFILE = $selectedProfile
+    Write-Host "✅ Switched to AWS profile: $env:AWS_PROFILE" -ForegroundColor Green
+  }
+  else {
+    Write-Host "⚠️ No profile selected." -ForegroundColor Yellow
+  }
+}
+
+# Makefile selector
+function bake {
+  # Check if Makefile exists in current directory
+  if (Test-Path -Path "./Makefile") {
+    # Extract make targets (rules) from the Makefile
+    $targets = Get-Content "./Makefile" |
+    Select-String -Pattern '^([a-zA-Z0-9][a-zA-Z0-9_-]*):' |
+    ForEach-Object { $_.Matches.Groups[1].Value } |
+    Sort-Object -Unique -CaseSensitive
+
+    # Pipe targets into fzf
+    $selected = $targets | fzf --prompt "Select Make target: "
+
+    if ($selected) {
+      # Run the make command
+      $command = "make $selected"
+      Write-Host "Running: $command"
+      Invoke-Expression $command
+    }
+  }
+  else {
+    Write-Warning "No Makefile found in the current directory."
+  }
+}
+
+# Prompt
+oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH/amro.omp.json" | Invoke-Expression
+Import-Module Terminal-Icons
+if ($host.Name -eq 'ConsoleHost') {
+  Import-Module PSReadLine
+}
 ```
