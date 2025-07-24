@@ -118,12 +118,6 @@ git config --global user.email "shawn.oster@gmail.com"
 using namespace System.Management.Automation
 using namespace System.Management.Automation.Language
 
-# Set Oh My Posh prompt
-#
-# Quick install on Windows with winget: winget install "JanDeDobbeleer.OhMyPosh"
-# Full instructions on offical site: https://ohmyposh.dev/docs/
-oh-my-posh --init --shell pwsh --config $env:POSH_THEMES_PATH\space.omp.json | Invoke-Expression
-
 #
 # Tab-completion
 #
@@ -487,7 +481,7 @@ function bake {
 # SonarQube
 function ss { sonar-scanner.bat -D"sonar.projectKey=$(Get-Location | Split-Path -Leaf)" -D"sonar.python.version=3" -D"sonar.sourceEncoding=UTF-8" }
 
-# Prompt
+# Oh My Posh prompt
 oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH/amro.omp.json" | Invoke-Expression
 Import-Module Terminal-Icons
 if ($host.Name -eq 'ConsoleHost') {
