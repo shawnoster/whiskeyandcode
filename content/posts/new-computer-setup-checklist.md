@@ -6,7 +6,7 @@ categories:
 tags:
   - setup
 draft: false
-lastmod: '2024-09-15'
+lastmod: '2025-07-23'
 ---
 
 # New Computer Setup Checklist
@@ -359,6 +359,17 @@ Register-ArgumentCompleter -Native -CommandName 'volta' -ScriptBlock {
     Sort-Object -Property ListItemText
 }
 
+# winget
+Register-ArgumentCompleter -Native -CommandName winget -ScriptBlock {
+  param($wordToComplete, $commandAst, $cursorPosition)
+  [Console]::InputEncoding = [Console]::OutputEncoding = $OutputEncoding = [System.Text.Utf8Encoding]::new()
+  $Local:word = $wordToComplete.Replace('"', '""')
+  $Local:ast = $commandAst.ToString().Replace('"', '""')
+  winget complete --word="$Local:word" --commandline "$Local:ast" --position $cursorPosition | ForEach-Object {
+    [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterValue', $_)
+  }
+}
+
 #
 # Aliases to common directories
 #
@@ -367,6 +378,12 @@ Register-ArgumentCompleter -Native -CommandName 'volta' -ScriptBlock {
 # Root directory for all source code (make sure to set SOURCE_ROOT)
 function cds { Set-Location $env:SOURCE_ROOT }
 function ss { sonar-scanner.bat -D"sonar.projectKey=$(Get-Location | Split-Path -Leaf)" -D"sonar.python.version=3" -D"sonar.sourceEncoding=UTF-8" }
+
+#
+# Environment variables
+#
+$Env:SOURCE_ROOT = E:
+$Env:UV_CACHE_DIR = "E:\.uv"
 
 # 1Password-secured Accounts
 #
@@ -381,6 +398,8 @@ function Set-SecureEnv {
   $Env:NPM_TOKEN = op read --account guild-education "op://Employee/npm - token - Local CLI/credential"
   $Env:PACT_READONLY_PASSWORD = op read --account guild-education "op://Engineering Tools - Dev/Pact Broker - Readonly/password"
   $Env:SONAR_TOKEN = op read --account guild-education "op://Employee/SonarQube - Docker/token"
+  $Env:DATADOG_API_KEY = op read --account guild-education "op://Employee/Datadog - API Key - Self-Serve Workflow/credential"
+  $Env:DATADOG_APP_KEY = op read --account guild-education "op://Employee/Datadog - App Key - Self-Serve Script/credential"
 }
 function secure-groot { Set-Location (Join-Path $env:SOURCE_ROOT groot); op run --account my --env-file=.\app.env -- code . }
 function secure-wonka { Set-Location (Join-Path $env:SOURCE_ROOT wonka); op run --account guild-education --env-file=.\wonka\app.env -- code . }
@@ -404,6 +423,39 @@ function Switch-AWSProfile {
   }
   else {
     Write-Host "⚠️ No profile selected." -ForegroundColor Yellow
+  }
+}
+
+# GitHub CLI
+function Remove-MergedBranches {
+  # Fetch latest changes and prune deleted remote branches
+  git fetch --prune
+
+  # Get current branch
+  $currentBranch = git rev-parse --abbrev-ref HEAD
+
+  # Get merged branches (excluding main/master and current)
+  $mergedBranches = git branch --merged |
+      ForEach-Object { $_.Trim() } |
+      Where-Object {
+          ($_ -ne "main") -and
+          ($_ -ne "master") -and
+          ($_ -ne $currentBranch) -and
+          (-not $_.StartsWith("*"))
+      }
+
+  # Get remote branches
+  $remoteBranches = git branch -r |
+      ForEach-Object { $_.Trim().Replace("origin/", "") }
+
+  # Filter merged branches that are deleted from the remote
+  $branchesToDelete = $mergedBranches |
+      Where-Object { $remoteBranches -notcontains $_ }
+
+  # Delete the local branches
+  foreach ($branch in $branchesToDelete) {
+      Write-Host "Deleting local branch: $branch"
+      git branch -d $branch
   }
 }
 
@@ -431,6 +483,9 @@ function bake {
     Write-Warning "No Makefile found in the current directory."
   }
 }
+
+# SonarQube
+function ss { sonar-scanner.bat -D"sonar.projectKey=$(Get-Location | Split-Path -Leaf)" -D"sonar.python.version=3" -D"sonar.sourceEncoding=UTF-8" }
 
 # Prompt
 oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH/amro.omp.json" | Invoke-Expression
