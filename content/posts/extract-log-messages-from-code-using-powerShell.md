@@ -6,8 +6,7 @@ categories:
 tags:
   - markdown
   - best practices
-tags:
-- csharp
+  - csharp
 draft: false
 ---
 
